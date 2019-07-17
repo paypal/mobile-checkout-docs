@@ -13,7 +13,7 @@
         <meta name="description" content="Project documentation with Markdown.">
       
       
-        <link rel="canonical" href="https://paypal.github.io/paypalnativecheckout-docs/ios/">
+        <link rel="canonical" href="https://paypal.github.io/paypalnativecheckout-docs/setup/">
       
       
         <meta name="author" content="PayPal Native Checkout Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Getting Started - Native Checkout</title>
+        <title>Obtaining Merchant ID - Native Checkout</title>
       
     
     
@@ -85,7 +85,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#getting-started" tabindex="1" class="md-skip">
+      <a href="#initial-setup" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -111,7 +111,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Getting Started
+                Obtaining Merchant ID
               
             </span>
           
@@ -232,10 +232,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Setup
@@ -251,11 +253,49 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../setup/" title="Obtaining Merchant ID" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Obtaining Merchant ID
+      </label>
+    
+    <a href="./" title="Obtaining Merchant ID" class="md-nav__link md-nav__link--active">
       Obtaining Merchant ID
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-merchant-app-on-our-developer-portal" title="How to create a merchant app on our developer portal" class="md-nav__link">
+    How to create a merchant app on our developer portal
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -364,12 +404,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
     
     <label class="md-nav__link" for="nav-4">
       iOS
@@ -385,20 +423,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Getting Started" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../ios/" title="Getting Started" class="md-nav__link">
       Getting Started
     </a>
-    
   </li>
 
         
@@ -448,6 +477,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-create-a-merchant-app-on-our-developer-portal" title="How to create a merchant app on our developer portal" class="md-nav__link">
+    How to create a merchant app on our developer portal
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -459,8 +504,34 @@
               
                 
                 
-                <h1 id="getting-started">Getting Started</h1>
-<p>This is how you get started for iOS</p>
+                <h1 id="initial-setup">Initial Setup</h1>
+<p>The Paypal-Merchant client id, helps you to enable this experience on your app and collect consent from Users that they would like to opt in and use this feature in your app when they pay with paypal.</p>
+<h3 id="how-to-create-a-merchant-app-on-our-developer-portal">How to create a merchant app on our developer portal</h3>
+<ol>
+<li>
+<p>Go to https://developer.paypal.com/developer/applications/
+    <img alt="Developer portal" src="https://cloud.githubusercontent.com/assets/328000/20447713/46cd3ed2-ad95-11e6-8172-3b64a0efd850.png" /></p>
+</li>
+<li>
+<p>Add a name and click on <code>create app</code>
+    <img alt="Create App" src="https://cloud.githubusercontent.com/assets/328000/20447715/4848f74c-ad95-11e6-8008-3016b4ec7acc.png" /></p>
+</li>
+<li>
+<p>You will see the Merchant client_id generated in the next page.
+    <img alt="Add app" src="https://cloud.githubusercontent.com/assets/328000/20447717/495f7ade-ad95-11e6-82cf-1914b1c01a76.png" /></p>
+</li>
+<li>
+<p>In App settings section, select <code>In-app Checkout</code>
+<img alt="Enabling Scopes for Native Checkout" src="../images/ScreenShot2018-09-06.png" /></p>
+</li>
+<li>
+<p>Add the universal link you created on your domain in the return url section.
+<img alt="Return Url" src="https://user-images.githubusercontent.com/2745959/32419786-c465b688-c277-11e7-9a56-18e0166d8c0d.png" /></p>
+</li>
+<li>
+<p>Finally mail our team for adding a special scope on your client ID to get the Native Checkout experience. You can mail us <a href="mailto:DL-PP-nativexo@paypal.com">here</a></p>
+</li>
+</ol>
                 
                   
                 
@@ -481,7 +552,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../android/misc/" title="Miscellaneous" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href=".." title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -490,19 +561,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Miscellaneous
+                Home
               </span>
             </div>
           </a>
         
         
-          <a href="../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../android/" title="Getting Started" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                FAQ
+                Getting Started
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
