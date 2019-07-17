@@ -395,9 +395,58 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Getting Started
+      </label>
+    
     <a href="./" title="Getting Started" class="md-nav__link md-nav__link--active">
       Getting Started
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paypal-native-checkout-sdk" title="PayPal Native Checkout SDK" class="md-nav__link">
+    PayPal Native Checkout SDK
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paypal-client-id" title="PayPal Client ID" class="md-nav__link">
+    PayPal Client ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -408,7 +457,103 @@
 
 
   <li class="md-nav__item">
-    <a href="reference/index.html" title="Reference" class="md-nav__link">
+    <a href="getting-started-with-ios/" title="Gettings Started with iOS" class="md-nav__link">
+      Gettings Started with iOS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="integrating-cocoapods/" title="Integrating Cocoapods" class="md-nav__link">
+      Integrating Cocoapods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="integrating-flat/" title="Integrating Experience" class="md-nav__link">
+      Integrating Experience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="integrating-experience/" title="Integrating Flat" class="md-nav__link">
+      Integrating Flat
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="invoking-sdk/" title="Invoking SDK" class="md-nav__link">
+      Invoking SDK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="selecting-an-integration-method/" title="Selecting an Integration Method" class="md-nav__link">
+      Selecting an Integration Method
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="sample/" title="Sample" class="md-nav__link">
+      Sample
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="misc/" title="Misc" class="md-nav__link">
+      Misc
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/" title="Reference" class="md-nav__link">
       Reference
     </a>
   </li>
@@ -460,6 +605,42 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#paypal-native-checkout-sdk" title="PayPal Native Checkout SDK" class="md-nav__link">
+    PayPal Native Checkout SDK
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#paypal-client-id" title="PayPal Client ID" class="md-nav__link">
+    PayPal Client ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-steps" title="Next Steps" class="md-nav__link">
+    Next Steps
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -472,7 +653,42 @@
                 
                 
                 <h1 id="getting-started">Getting Started</h1>
-<p>This is how you get started for iOS</p>
+<h2 id="paypal-native-checkout-sdk">PayPal Native Checkout SDK</h2>
+<p>The PayPal Native Checkout SDK for iOS, provides a simplified way for you to provide a secure and safe payment solution for your apps. Below is a list of capabilities in the SDK, and which versions of iOS support those features.</p>
+<table>
+<thead>
+<tr>
+<th>iOS Version</th>
+<th>Webview Intercept</th>
+<th>Direct API</th>
+<th>Native Experience</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iOS 9</td>
+<td>✔</td>
+<td>✔</td>
+<td>✖</td>
+</tr>
+<tr>
+<td>iOS 10</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+<tr>
+<td>iOS 11</td>
+<td>✔</td>
+<td>✔</td>
+<td>✔</td>
+</tr>
+</tbody>
+</table>
+<h3 id="paypal-client-id">PayPal Client ID</h3>
+<p>Before you start, you should have already obtained a PayPal Client ID from the PayPal Developer portal. If you haven't done that step yet, please stop here, and follow the directions in our <a href="/paypalnativecheckout-docs/setup/obtaining-merchant-id/">Obtaining a PayPal Client ID</a> docs.</p>
+<h3 id="next-steps">Next Steps</h3>
+<p>Now let's <a href="integrating-experience/">integrate</a> the experience!</p>
                 
                   
                 
@@ -508,13 +724,13 @@
           </a>
         
         
-          <a href="../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="getting-started-with-ios/" title="Gettings Started with iOS" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                FAQ
+                Gettings Started with iOS
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

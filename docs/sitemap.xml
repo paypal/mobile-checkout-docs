@@ -46,8 +46,48 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc></loc>
-     
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/getting-started-with-ios/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/integrating-cocoapods/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/integrating-flat/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/integrating-experience/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/invoking-sdk/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/selecting-an-integration-method/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/sample/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/misc/</loc>
+     <lastmod>2019-07-16</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://paypal.github.io/paypalnativecheckout-docs/ios/reference/</loc>
+     <lastmod>2019-07-16</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>

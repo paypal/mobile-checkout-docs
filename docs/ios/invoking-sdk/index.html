@@ -13,7 +13,7 @@
         <meta name="description" content="Project documentation with Markdown.">
       
       
-        <link rel="canonical" href="https://paypal.github.io/paypalnativecheckout-docs/android/invoking-sdk/">
+        <link rel="canonical" href="https://paypal.github.io/paypalnativecheckout-docs/ios/invoking-sdk/">
       
       
         <meta name="author" content="PayPal Native Checkout Team">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Invoking the SDK - Native Checkout</title>
+        <title>Invoking SDK - Native Checkout</title>
       
     
     
@@ -111,7 +111,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Invoking the SDK
+                Invoking SDK
               
             </span>
           
@@ -268,12 +268,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
       Android
@@ -281,6 +279,104 @@
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
         Android
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/" title="Getting Started" class="md-nav__link">
+      Getting Started
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/integrating-experience/" title="Integrating the Checkout Experience" class="md-nav__link">
+      Integrating the Checkout Experience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/integrating-maven/" title="Integrating with Maven" class="md-nav__link">
+      Integrating with Maven
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/invoking-sdk/" title="Invoking the SDK" class="md-nav__link">
+      Invoking the SDK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/Reference/" title="Reference" class="md-nav__link">
+      Reference
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../android/misc/" title="Miscellaneous" class="md-nav__link">
+      Miscellaneous
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      iOS
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        iOS
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -303,8 +399,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../integrating-experience/" title="Integrating the Checkout Experience" class="md-nav__link">
-      Integrating the Checkout Experience
+    <a href="../getting-started-with-ios/" title="Gettings Started with iOS" class="md-nav__link">
+      Gettings Started with iOS
     </a>
   </li>
 
@@ -315,8 +411,32 @@
 
 
   <li class="md-nav__item">
-    <a href="../integrating-maven/" title="Integrating with Maven" class="md-nav__link">
-      Integrating with Maven
+    <a href="../integrating-cocoapods/" title="Integrating Cocoapods" class="md-nav__link">
+      Integrating Cocoapods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../integrating-flat/" title="Integrating Experience" class="md-nav__link">
+      Integrating Experience
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../integrating-experience/" title="Integrating Flat" class="md-nav__link">
+      Integrating Flat
     </a>
   </li>
 
@@ -336,11 +456,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Invoking the SDK
+        Invoking SDK
       </label>
     
-    <a href="./" title="Invoking the SDK" class="md-nav__link md-nav__link--active">
-      Invoking the SDK
+    <a href="./" title="Invoking SDK" class="md-nav__link md-nav__link--active">
+      Invoking SDK
     </a>
     
       
@@ -354,9 +474,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup-the-environment" title="Setup the Environment" class="md-nav__link">
-    Setup the Environment
+  <a href="#1-add-application-level-uri-and-universal-link-handling" title="1. Add Application Level URI and universal link handling" class="md-nav__link">
+    1. Add Application Level URI and universal link handling
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uri-scheme-handling" title="URI Scheme Handling" class="md-nav__link">
+    URI Scheme Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-link-handling" title="Universal Link Handling" class="md-nav__link">
+    Universal Link Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-bar-resize" title="Status Bar Resize" class="md-nav__link">
+    Status Bar Resize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -369,21 +516,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#webview-intercept" title="WebView Intercept" class="md-nav__link">
-    WebView Intercept
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#direct-invocation" title="Direct Invocation" class="md-nav__link">
-    Direct Invocation
+  <a href="#webview-intercept" title="Webview Intercept" class="md-nav__link">
+    Webview Intercept
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#direct-invocation" title="Direct Invocation" class="md-nav__link">
+    Direct Invocation
+  </a>
   
 </li>
       
@@ -411,127 +558,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../Reference/" title="Reference" class="md-nav__link">
-      Reference
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../misc/" title="Miscellaneous" class="md-nav__link">
-      Miscellaneous
-    </a>
-  </li>
-
-        
-      </ul>
-    </nav>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item md-nav__item--nested">
-    
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
-    
-    <label class="md-nav__link" for="nav-4">
-      iOS
-    </label>
-    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
-      <label class="md-nav__title" for="nav-4">
-        iOS
-      </label>
-      <ul class="md-nav__list" data-md-scrollfix>
-        
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/" title="Getting Started" class="md-nav__link">
-      Getting Started
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/getting-started-with-ios/" title="Gettings Started with iOS" class="md-nav__link">
-      Gettings Started with iOS
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/integrating-cocoapods/" title="Integrating Cocoapods" class="md-nav__link">
-      Integrating Cocoapods
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/integrating-flat/" title="Integrating Experience" class="md-nav__link">
-      Integrating Experience
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/integrating-experience/" title="Integrating Flat" class="md-nav__link">
-      Integrating Flat
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/invoking-sdk/" title="Invoking SDK" class="md-nav__link">
-      Invoking SDK
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../../ios/selecting-an-integration-method/" title="Selecting an Integration Method" class="md-nav__link">
+    <a href="../selecting-an-integration-method/" title="Selecting an Integration Method" class="md-nav__link">
       Selecting an Integration Method
     </a>
   </li>
@@ -543,7 +570,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../ios/sample/" title="Sample" class="md-nav__link">
+    <a href="../sample/" title="Sample" class="md-nav__link">
       Sample
     </a>
   </li>
@@ -555,7 +582,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../ios/misc/" title="Misc" class="md-nav__link">
+    <a href="../misc/" title="Misc" class="md-nav__link">
       Misc
     </a>
   </li>
@@ -567,7 +594,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../ios/reference/" title="Reference" class="md-nav__link">
+    <a href="../reference/" title="Reference" class="md-nav__link">
       Reference
     </a>
   </li>
@@ -623,9 +650,36 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup-the-environment" title="Setup the Environment" class="md-nav__link">
-    Setup the Environment
+  <a href="#1-add-application-level-uri-and-universal-link-handling" title="1. Add Application Level URI and universal link handling" class="md-nav__link">
+    1. Add Application Level URI and universal link handling
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uri-scheme-handling" title="URI Scheme Handling" class="md-nav__link">
+    URI Scheme Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-link-handling" title="Universal Link Handling" class="md-nav__link">
+    Universal Link Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-bar-resize" title="Status Bar Resize" class="md-nav__link">
+    Status Bar Resize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -638,21 +692,21 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#webview-intercept" title="WebView Intercept" class="md-nav__link">
-    WebView Intercept
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#direct-invocation" title="Direct Invocation" class="md-nav__link">
-    Direct Invocation
+  <a href="#webview-intercept" title="Webview Intercept" class="md-nav__link">
+    Webview Intercept
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#direct-invocation" title="Direct Invocation" class="md-nav__link">
+    Direct Invocation
+  </a>
   
 </li>
       
@@ -681,214 +735,122 @@
                 
                 
                 <h1 id="invoking-the-sdk">Invoking the SDK</h1>
-<p>PayPal can either watch the WebView in the application, and provide a native payment experience in place of a website or can be invoked directly by calling a simple function. You can integrate manually into the application using the super easy steps below.</p>
-<h3 id="setup-the-environment">Setup the Environment</h3>
-<p>The SDK needs some additional information about the application before it can be invoked. Take a look at the</p>
-<pre><code class="java">// Register the activity context.
-final PayPalCheckoutConfig paypalEnvironment = PayPalCheckoutConfig.getInstance(this);
-
-// Set the client ID of the app.
-paypalEnvironment.setClientId(&quot;AX93NErgg-sampleClientID_registeredForTheApplication-VD4GP-AJdjT0Uz4&quot;);
-
-// Set the URI scheme/app link registered in the PayPal Developer Portal as a Return URL and defined for `com.paypal.openid.RedirectUriReceiverActivity` activity in the AndroidManifest.xml file.
-paypalEnvironment.setPayPalRedirectURL(&quot;sampleapp://paypalpay&quot;);
-
-// This is optional if using URI schemes as a Return Url.
-// This is mandatory if app links are used as a Return Url.
-// If set, the value should match the scheme provided for the `com.paypal.pyplcheckout.activities.PYPLInitiateCheckout` activity in the AndroidManifest.xml file.
-paypalEnvironment.setPayPalUrlScheme(&quot;sampleapp&quot;);
-
-// The environment is set to LIVE by default. Use this only for internal testing.
-paypalEnvironment.setPayPalEnvironment(PayPalEnvironment.SANDBOX);
-
-
+<p>PayPal will watch the WebView in your application, and provide a native payment experience in place of a website.
+You can integrate manually into your application using the super easy steps below.</p>
+<h3 id="1-add-application-level-uri-and-universal-link-handling">1. Add Application Level URI and universal link handling</h3>
+<p>Add PayPal Native Checkout SDK the <code>application:openURL:</code> signature of your <code>AppDelegate.m</code> file. This is common amongst other SDKs, you may need to add these to a chain.</p>
+<h4 id="uri-scheme-handling">URI Scheme Handling</h4>
+<pre><code class="c">// AppDelegate.m
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+  return [[PYPLCheckout sharedInstance] handleReturnFromPaypal: url];
+}
 </code></pre>
 
+<h4 id="universal-link-handling">Universal Link Handling</h4>
+<pre><code class="c">// AppDelegate.m
+- (BOOL)application:(UIApplication *)application
+continueUserActivity:(NSUserActivity *)userActivity
+ restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler
+{
+  return [[PYPLCheckout sharedInstance] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+}
+</code></pre>
+
+<h4 id="status-bar-resize">Status Bar Resize</h4>
+<pre><code class="c">// AppDelegate.m
+- (void)application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame
+{
+  [[PYPLCheckout sharedInstance] application:application didChangeStatusBarFrame:oldStatusBarFrame];
+}
+</code></pre>
+
+<p>This gives an opportunity for the PayPal Native Checkout SDK to handle, the deep links and Universal Link you are registered in the prior section while editing the <code>Info.plist</code> file.</p>
+<hr />
 <h2 id="integration-steps-for-web-intercept">Integration Steps for Web Intercept</h2>
-<p><img src="../../images/android-experience.png" height="650" /></p>
-<h3 id="webview-intercept">WebView Intercept</h3>
-<p>If the preceeding integration has collisions with code around the WebView, manual intercepting of the WebView is possible, as shown in these examples.</p>
-<p><code>PayPalWebViewUtils.getInstance().shouldOverrideUrlLoading(view, url)</code> method can be used to intercept the webView on any redirections to PayPal. This function returns a boolean that can be used on the <code>shouldOverrideUrlLoading()</code> method in the webViewClient.</p>
-<p>Example of WebView integration with your own webViewClient.</p>
-<pre><code class="java">// MainActivity.class
+<p><img src="../../images/experience_native.png" height="650" style="border:1px solid #eee;"/></p>
+<h3 id="webview-intercept">Webview Intercept</h3>
+<p>If the preceeding integration has collisions with code around the webview, manual intercepting of the webview is possible, as shown in these examples.</p>
+<p>Set Checkout's delegate as your class. This allows PayPal Checkout to return <code>PayPalCheckoutCompleted</code> method, after finishing checkout.</p>
+<pre><code>PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.delegate = self;
+</code></pre>
 
-WebView webView = new WebView(this);
-
-//SampleWebViewIntercept is your webViewClient.
-webView.setWebViewClient(new SampleWebViewIntercept());
-
-// SampleWebViewIntercept.class
-public class SampleWebViewIntercept extends WebViewClient {
-
- // Include this for integrating with Checkout.js.
-  @Override
-  public void onPageFinished(WebView view, String url) {
-
-      super.onPageFinished(view, url);
-
-      // This will load a script to handle the Checkout.js integration.
-      PayPalWebViewUtils.getInstance().loadScript(view);
-
+<p>Depending on which <code>WebView</code> container you use, the sdk provides a signature that matches each. Each method returns a <code>BOOL</code> that will allow the application to determine if the Checkout library handled the URL.</p>
+<p>Example using a <code>WKWebView</code> as the browser container.</p>
+<pre><code class="objc">- (void)webView:(WKWebView *)webView
+decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction
+decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+  PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+  BOOL didPayPalHandleNavigation = [checkout webView:webView decidePolicyForNavigationAction:navigationAction decisionHandler:decisionHandler];
+  if(didPayPalHandleNavigation) {
+    decisionHandler(WKNavigationActionPolicyCancel);
+  } else {
+    decisionHandler(WKNavigationActionPolicyAllow);
   }
-
-  @Override
-  public boolean shouldOverrideUrlLoading(WebView view, final String url) {
-
-      return PayPalWebViewUtils.getInstance().shouldOverrideUrlLoading(view, url);
-
-  }
-
 }
 </code></pre>
 
-<h3 id="direct-invocation">Direct Invocation</h3>
-<p>Start the PayPal Checkout Experience directly, by providing a Payment Token from the back office system.</p>
-<p>Set a call back delegate, when the checkout has completed.</p>
-<pre><code class="java"> paypalEnvironment.setPayPalService(new PayPalService() {
-
-      @Override
-      public void onApprove(HashMap&lt;String,String&gt; returnParams) {
-
-        // Return params will contain all the required information for the merchant to finish the transaction.
-          Log.i(&quot;CheckoutFinishedWith&gt;&gt;&quot;, returnParams.toString());
-
-        // Here is a sample of what return params consists
-        /**
-        {
-          returnUrl=https://sampleurl.com/checkouts/?from_cart=true&amp;key=Key&amp;token=EC-token&amp;PayerID=payerID&amp;opType=payment,
-          token=EC-token,
-          key=Key,
-          PayerID=payerID
-        }
-        **/
-
-      }
-
-      // In addition to the onApprove delegate you can also provide a onCancel delegate that is called when the user cancels the checkout process.
-      @Override
-       public void onCancel() {
-
-          Log.i(&quot;Checkout Canceled&gt;&gt;&quot;, &quot;Checkout Canceled&quot;);
-
-        }
-  });
+<p>Example using a <code>UIWebView</code> as the browser container.</p>
+<pre><code class="objc">- (BOOL)webView:(UIWebView *)webView
+shouldStartLoadWithRequest:(NSURLRequest *)request
+ navigationType:(UIWebViewNavigationType)navigationType {
+  PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+  return [checkout webView:webView shouldStartLoadWithRequest:request navigationType:navigationType];
+}
 </code></pre>
 
-<p>Set additional params that you need to pass to PayPal. This is optional.</p>
-<pre><code class="java">// Every option should be a string with the key and value joined with a '='
-String[] paypalParamsArray = new String[1];
-paypalParamsArray[0] = &quot;useraction=commit&quot;;
-
-paypalEnvironment.setMerchantQueryParams(paypalParamsArray);
+<p>In both examples, the <code>PayPalCheckoutCompleted</code> method will execute, if there is no <code>Checkout JS SDK</code> integrated on the page. In the <code>Checkout JS</code> integration scenario, control will be returned to the CheckoutJS script.</p>
+<p>If there is no CheckoutJS script, the <code>details</code> dictionary object, will contain a <code>returnUrl</code> that can be used to navigate the WebView. Additionally the <code>details</code> object will be decorated with return parameters attached to the <code>returnUrl</code>.</p>
+<pre><code class="objc">-(void) PayPalCheckoutCompleted: (NSDictionary*) details {
+  NSLog(@&quot;Completed Checkout&quot;);
+}
 </code></pre>
 
-<p>Start the experience with the checkout token.</p>
-<pre><code class="java">PayPalCheckout.getInstance().startCheckout(&quot;sampleCheckoutToken&quot;);
+<h2 id="direct-invocation">Direct Invocation</h2>
+<p>Start the PayPal Checkout Experience directly, by providing a Payment Token from your back office.</p>
+<pre><code class="objc">
+//ViewController.h
+#import &lt;NativeCheckout/PYPLCheckout.h&gt;
+
+//ViewController.m
+- (void)buttonDelgate: (id)sender {
+[[PYPLCheckout sharedInstance] startCheckoutWithECToken:@&quot;provide_payment_token&quot; withDelegate: self];
 </code></pre>
 
-<p>Dropping the delegate. In the event you need to drop the delegate from our callbacks, you can use</p>
-<pre><code class="java">final PayPalCheckoutConfig paypalEnvironment = PayPalCheckoutConfig.getInstance(this);
-paypalEnvironment.clearCheckoutDelegate();
+<p>The checkout experience will report back to the delegate method.</p>
+<pre><code class="objc">-(void) PayPalCheckoutCompleted: (NSDictionary*) details {
+}
 </code></pre>
 
-<p>To recieve events again, simply set the delegate again.</p>
+<p>The details object will provide the typical returns from a PayPal checkout, note the keys have been forced to lowercase for consistency.</p>
+<pre><code class="objc">NSDictionary* details = @{
+    @&quot;paymentid&quot;: @&quot;&quot;,
+    @&quot;paymenttoken&quot;: @&quot;&quot;,
+    @&quot;useraction&quot;: @&quot;&quot;,
+  @&quot;payerid&quot;:@&quot;&quot;
+}
+
+</code></pre>
+
+<p>In an instance where a user was using a native interface (such as safari view controller), and did not go through the checkout flow, <code>PayPalCheckoutCancelled</code> will be called, to let you know to refresh the state of your app.</p>
+<pre><code class="objc">-(void) PayPalCheckoutCancelled {
+}
+</code></pre>
+
 <h2 id="no-native-ui-mode">No Native UI Mode</h2>
-<p>The secure browser method, implements a sandboxed in app browser (Chrome Custom Tab), and eases the integration required for a developer. This path also implements the PayPal Risk library.</p>
-<p><img src="../../images/android-webonly.png" height="650" /></p>
-<p>To disable the UI, simply set the webBrowserOnlyMode on the Environment object.</p>
-<p>Example of WebView Intercept with no webViewClient.</p>
-<pre><code class="java">final PayPalCheckoutConfig paypalEnvironment = PayPalCheckoutConfig.getInstance(this);
-
-// This will ensure that the native UI is not called
-paypalEnvironment.setWebOnlyMode(true);
-</code></pre>
-
-<p>Example of WebView Intercept with your own webViewClient with.</p>
-<pre><code class="java">//MainActivity.class
-final PayPalCheckoutConfig paypalEnvironment = PayPalCheckoutConfig.getInstance(this);
-
-// Set environment for internal testing.
-// paypalEnvironment.setPayPalEnvironment(PayPalEnvironment.SANDBOX);
-
-paypalEnvironment.setPayPalRedirectURL(&quot;sampleapp://paypalpay&quot;);
-paypalEnvironment.setClientId(&quot;AX93NErgg-sampleClientID_registeredForTheApplication-VD4GP-AJdjT0Uz4&quot;);
-
-// Optional param to only show web experience.
-// paypalEnvironment.setWebOnlyMode(true);
-
-WebView webView = new WebView(this);
-
-// Provide webViewClient for your WebView.
-webView.setWebViewClient(new SampleWebViewIntercept());
-
-// SampleWebViewIntercept.class
-public class SampleWebViewIntercept extends WebViewClient {
-
- // Include this for integrating with Checkout.js.
-  @Override
-  public void onPageFinished(WebView view, String url) {
-
-      super.onPageFinished(view, url);
-
-      // This will load a script to handle the Checkout.js integration.
-      PayPalWebViewUtils.getInstance().loadScript(view);
-
-  }
-
-  @Override
-  public boolean shouldOverrideUrlLoading(WebView view, final String url) {
-
-      return PayPalWebViewUtils.getInstance().shouldOverrideUrlLoading(view, url);
-
-  }
-
-}
+<p>The secure browser method, implements a sandboxed in app browser (Safari View Controller, or Chrome Custom Tab), and eases the integration required for a developer. This path also implements the PayPal Risk library.</p>
+<p><img src="../../images/experience_sfvc.png" height="650" style="border:1px solid #eee;"/></p>
+<p>To disable the UI, simply set the <code>webBrowserOnlyMode</code> on the <code>Checkout</code> object.</p>
+<p>Example of Webview Intercept</p>
+<pre><code class="objc">PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.webBrowserOnlyMode = @YES;
+[checkout interceptWebView:webview];
 </code></pre>
 
 <p>Example of Direct Invocation</p>
-<pre><code class="java">
-final PayPalCheckoutConfig paypalEnvironment = PayPalCheckoutConfig.getInstance(this);
-
-// Set environment for internal testing.
-// paypalEnvironment.setPayPalEnvironment(PayPalEnvironment.SANDBOX);
-
-paypalEnvironment.setPayPalRedirectURL(&quot;sampleapp://paypalpay&quot;);
-paypalEnvironment.setClientId(&quot;AX93NErgg-sampleClientID_registeredForTheApplication-VD4GP-AJdjT0Uz4&quot;);
-
-// Optional param to only show web experience.
-// paypalEnvironment.setWebOnlyMode(true);
-
-// Provide a Service with overrden methods to handle checkout operations.
-paypalEnvironment.setPayPalService(new PayPalService() {
-
-     @Override
-     public void onApprove(HashMap&lt;String,String&gt; returnParams) {
-
-       // Return params will contain all the required information for the merchant to finish the transaction.
-         Log.i(&quot;CheckoutFinishedWith&gt;&gt;&quot;, returnParams.toString());
-
-       // Here is a sample of what return params consists
-       /**
-       {
-         returnUrl=https://sampleurl.com/checkouts/?from_cart=true&amp;key=Key&amp;token=EC-token&amp;PayerID=payerID&amp;opType=payment,
-         token=EC-token,
-         key=Key,
-         PayerID=payerID
-       }
-       **/
-
-     }
-
-     // In addition to the onApprove delegate you can also provide a onCancel delegate that is called when the user cancels the checkout process.
-     @Override
-      public void onCancel() {
-
-         Log.i(&quot;Checkout Canceled&gt;&gt;&quot;, &quot;Checkout Canceled&quot;);
-
-       }
- });
-
-PayPalCheckout.getInstance().startCheckout(&quot;sampleCheckoutToken&quot;);
+<pre><code class="objc">PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.webBrowserOnlyMode = @YES;
+[checkout startCheckoutWithECToken:@&quot;provide_payment_token&quot; withDelegate:self];
 </code></pre>
                 
                   
@@ -910,7 +872,7 @@ PayPalCheckout.getInstance().startCheckout(&quot;sampleCheckoutToken&quot;);
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../integrating-maven/" title="Integrating with Maven" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../integrating-experience/" title="Integrating Flat" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -919,19 +881,19 @@ PayPalCheckout.getInstance().startCheckout(&quot;sampleCheckoutToken&quot;);
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Integrating with Maven
+                Integrating Flat
               </span>
             </div>
           </a>
         
         
-          <a href="../Reference/" title="Reference" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../selecting-an-integration-method/" title="Selecting an Integration Method" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                Reference
+                Selecting an Integration Method
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
