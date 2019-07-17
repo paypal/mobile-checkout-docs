@@ -46,6 +46,11 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
+     <loc></loc>
+     
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://paypal.github.io/paypalnativecheckout-docs/faq/</loc>
      <lastmod>2019-07-16</lastmod>
      <changefreq>daily</changefreq>
