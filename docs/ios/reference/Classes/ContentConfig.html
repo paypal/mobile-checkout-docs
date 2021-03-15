@@ -1,0 +1,3547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ContentConfig Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ContentConfig" class="dashAnchor"></a>
+    <a title="ContentConfig Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">PayPalCheckout 0.37.0 Docs</a> (64% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">PayPalCheckout Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ContentConfig Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ActionClosureWrapper.html">ActionClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddAction.html">AddAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AmountView.html">AmountView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Approval.html">Approval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ApprovalData.html">ApprovalData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout010ApproveWebC4StepC">ApproveWebCheckoutStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AspectRatioImageView.html">AspectRatioImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout16AuthenticateStepC">AuthenticateStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthorizeActionSuccess.html">AuthorizeActionSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackAction.html">BackAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BrandedBackgroundView.html">BrandedBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureActionSuccess.html">CaptureActionSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselCell.html">CarouselCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselCell/LabelType.html">– LabelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselView.html">CarouselView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CheckDuplicateSessionStep.html">CheckDuplicateSessionStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Checkout.html">Checkout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CheckoutConfig.html">CheckoutConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15ConfigureUIStepC">ConfigureUIStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentConfig.html">ContentConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentPage.html">ContentPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentRouter.html">ContentRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CorrelationIDs.html">CorrelationIDs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateOrderAction.html">CreateOrderAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConversionOptionHeaderView.html">CurrencyConversionOptionHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout28CurrencyConversionOptionPageC">CurrencyConversionOptionPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeliverySelectionHeaderView.html">DeliverySelectionHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout21DeliverySelectionPageC">DeliverySelectionPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeliveryView.html">DeliveryView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19DismissPaysheetStepC">DismissPaysheetStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15EligibilityStepC">EligibilityStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnvironmentConfig.html">EnvironmentConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ErrorInfo.html">ErrorInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventData.html">EventData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Events.html">Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExtendedCheckoutConfig.html">ExtendedCheckoutConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GestureClosureWrapper.html">GestureClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19GetFeatureFlagsStepC">GetFeatureFlagsStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphQLMutationState.html">GraphQLMutationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HeaderSubTitleLabel.html">HeaderSubTitleLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HeaderTitleLabel.html">HeaderTitleLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout8HomePageC">HomePage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18InboundNetworkStepC">InboundNetworkStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22InitializeFirebaseStepC">InitializeFirebaseStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout16InitializeUIStepC">InitializeUIStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15LSATUpgradeTaskC">LSATUpgradeTask</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Legalese.html">Legalese</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11LoadingPageC">LoadingPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LogoImageView.html">LogoImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout10LogoutStepC">LogoutStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MappedNetworkInput.html">MappedNetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19MoveToErrorPageStepC">MoveToErrorPageStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19MoveToFinishingPageC">MoveToFinishingPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18MoveToHomepageStepC">MoveToHomepageStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18MoveToShutdownPageC">MoveToShutdownPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderActionData.html">OrderActionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderActions.html">OrderActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderAddress.html">OrderAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext.html">OrderApplicationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/ShippingPreference.html">– ShippingPreference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/UserAction.html">– UserAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentMethod.html">– PaymentMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PayerSelected.html">– PayerSelected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PayeePreferred.html">– PayeePreferred</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/StandardEntryClassCode.html">– StandardEntryClassCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/StoredPaymentSource.html">– StoredPaymentSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentInitiator.html">– PaymentInitiator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/Usage.html">– Usage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PreviousNetworkTransactionReference.html">– PreviousNetworkTransactionReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/Network.html">– Network</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer.html">OrderPayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/Phone.html">– Phone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/PhoneType.html">– PhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/PhoneNumber.html">– PhoneNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/TaxInfo.html">– TaxInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/TaxIdType.html">– TaxIdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderRequest.html">OrderRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderedNetworkInput.html">OrderedNetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19OutboundNetworkStepC">OutboundNetworkStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentButton.html">PaymentButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentButtonConfig.html">PaymentButtonConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileImageBubble.html">ProfileImageBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11ProfilePageC">ProfilePage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit.html">PurchaseUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Amount.html">– Amount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Breakdown.html">– Breakdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Payee.html">– Payee</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/PaymentInstruction.html">– PaymentInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/PlatformFees.html">– PlatformFees</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/DisbursementMode.html">– DisbursementMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Item.html">– Item</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Tax.html">– Tax</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Category.html">– Category</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Shipping.html">– Shipping</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/ShippingName.html">– ShippingName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RateChangePolicyHeaderView.html">RateChangePolicyHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RateChangeView.html">RateChangeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22RateProtectionInfoPageC">RateProtectionInfoPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout20ResetEnvironmentStepC">ResetEnvironmentStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SequenceProcessor.html">SequenceProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SequenceProcessor/Callback.html">– Callback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingAmount.html">ShippingAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChange.html">ShippingChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChangeAddress.html">ShippingChangeAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChangeError.html">ShippingChangeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingContainerView.html">ShippingContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19ShippingDetailsPageC">ShippingDetailsPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingMethod.html">ShippingMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingView.html">ShippingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout20ShutdownFirebaseStepC">ShutdownFirebaseStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15SmartWalletStepC">SmartWalletStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/State.html">State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransitionLabel.html">TransitionLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnconstrainedTextLabel.html">UnconstrainedTextLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UndefinedPage.html">UndefinedPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnitAmount.html">UnitAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22UpdateClientConfigStepC">UpdateClientConfigStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11WebViewPageC">WebViewPage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/APICallStatus.html">APICallStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Analytics.html">Analytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BankAccountType.html">BankAccountType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BrandedBackgroundConfigErrors.html">BrandedBackgroundConfigErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ButtonStateKey.html">ButtonStateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardIssuer.html">CardIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CheckoutState.html">CheckoutState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ColorType.html">ColorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentLayout.html">ContentLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentSection.html">ContentSection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyCode.html">CurrencyCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyConversionType.html">CurrencyConversionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen.html">ECTokenGen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen/TokenEndpoint.html">– TokenEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Environment.html">Environment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventPlayback.html">EventPlayback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventType.html">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventTypeData.html">EventTypeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Experience.html">Experience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FIType.html">FIType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FPTIEventType.html">FPTIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackReason.html">FallbackReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackType.html">FallbackType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FetchError.html">FetchError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FixedLocation.html">FixedLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentMethodType.html">FundingInstrumentMethodType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentSubType.html">FundingInstrumentSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentType.html">FundingInstrumentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HeightChange.html">HeightChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/I18n.html">I18n</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogAudience.html">LogAudience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogGating.html">LogGating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogoPositioningErrors.html">LogoPositioningErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkActionType.html">NetworkActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkInputType.html">NetworkInputType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkStatus.html">NetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkSynchronicity.html">NetworkSynchronicity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OrderIntent.html">OrderIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PayPalLinks.html">PayPalLinks</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonEdges.html">PaymentButtonEdges</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonSize.html">PaymentButtonSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonType.html">PaymentButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PresentationMode.html">PresentationMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RequestError.html">RequestError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKFatalStepErrors.html">SDKFatalStepErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKGeneralErrors.html">SDKGeneralErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKIOErrors.html">SDKIOErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKNonFatalStepErrors.html">SDKNonFatalStepErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SharedUI.html">SharedUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShippingChangeState.html">ShippingChangeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShippingType.html">ShippingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSContingencyReasonType.html">ThreeDSContingencyReasonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSContingencySourceType.html">ThreeDSContingencySourceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSPaymentExperience.html">ThreeDSPaymentExperience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html">Transition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO5StartO">– Start</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO9FinishingO">– Finishing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO8ShutdownO">– Shutdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO5ErrorO">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIFontVariant.html">UIFontVariant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIViewGestureType.html">UIViewGestureType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserAction.html">UserAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WebRoute.html">WebRoute</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGImage.html">CGImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ColorSheet.html">ColorSheet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DispatchQueue.html">DispatchQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/PayPalSessionTokenResponse.html">PayPalSessionTokenResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/PayPalSessionTokenResponse.html#/Payload">– Payload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControl.html">UIControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2neoiySbAA18StaticIdentifiable_p_AaC_ptF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2eeoiySbAA18StaticIdentifiable_p_AaC_ptF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2eeoiySbAA7Address_p_AaC_ptF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log__8audience6gating9separator10terminatoryAA8LogLevelO_SayypGAA0I8AudienceOAA0I6GatingOS2StF">log(_:_:audience:gating:separator:terminator:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log__8audience6gating9separator10terminatoryAA8LogLevelO_ypdAA0I8AudienceOAA0I6GatingOS2StF">log(_:_:audience:gating:separator:terminator:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log_8audience6gating9separator10terminatoryypd_AA11LogAudienceOAA0I6GatingOS2StF">log(_:audience:gating:separator:terminator:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ActionableRow.html">ActionableRow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AlignableImageView.html">AlignableImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Amount.html">Amount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccount.html">BankAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountBeneficiary.html">BankAccountBeneficiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountCreditor.html">BankAccountCreditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountIssuer.html">BankAccountIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Cart.html">Cart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CartItem.html">CartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutProcess.html">CheckoutProcess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutProcesses.html">CheckoutProcesses</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutSession.html">CheckoutSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfirmCreditCardCvvContingency.html">ConfirmCreditCardCvvContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ContentView.html">ContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConversion.html">CurrencyConversion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EventPayload.html">EventPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FIModelBase.html">FIModelBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FadingContentView.html">FadingContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingInstrument.html">FundingInstrument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingOption.html">FundingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingSource.html">FundingSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Merchant.html">Merchant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkInput.html">NetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkResult.html">NetworkResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout13NonFatalErrorP">NonFatalError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OpenBankingContingency.html">OpenBankingContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PPCOffersContent.html">PPCOffersContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentButtonDelegate.html">PaymentButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentButtonProvider.html">PaymentButtonProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentContingencies.html">PaymentContingencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Plan.html">Plan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PlanTypes.html">PlanTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProviderCreditOffer.html">ProviderCreditOffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ShippingAddress.html">ShippingAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StaticIdentifiable.html">StaticIdentifiable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StrongCustomerAuthenticationRequiredContingency.html">StrongCustomerAuthenticationRequiredContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSContingencyContextData.html">ThreeDSContingencyContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSJwtSpecification.html">ThreeDSJwtSpecification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSPaymentCardData.html">ThreeDSPaymentCardData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSResolution.html">ThreeDSResolution</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDomainSecureContingency.html">ThreeDomainSecureContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDomainSecureResolutionContingency.html">ThreeDomainSecureResolutionContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Transitionable.html">Transitionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserCheckoutPayload.html">UserCheckoutPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout9ViewModelP">ViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ViewModelView.html">ViewModelView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AnalyticsConfig.html">AnalyticsConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BrandedBackgroundConfig.html">BrandedBackgroundConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ButtonState.html">ButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ButtonState/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutApprovePaymentResult.html">CheckoutApprovePaymentResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutCompleteResult.html">CheckoutCompleteResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutSessionResult.html">CheckoutSessionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CodeLocation.html">CodeLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalTracking.html">ExternalTracking</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalTrackingProperty.html">ExternalTrackingProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FPTIEntry.html">FPTIEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FPTIEvent.html">FPTIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GQLAddAddressPayload.html">GQLAddAddressPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageAlignment.html">ImageAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/L10n.html">L10n</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LogoPositioningConfig.html">LogoPositioningConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkOperation.html">NetworkOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkOperationResult.html">NetworkOperationResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserCheckoutResult.html">UserCheckoutResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout22ActionClosureWrapperFna">ActionClosureWrapperFn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout9AuthTokena">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0C11ProcessItema">CheckoutProcessItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0C7Stringsa">CheckoutStrings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout10ColorSheeta">ColorSheet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout6Configa">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout18ContentConstrainera">ContentConstrainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout19CustomContentLayouta">CustomContentLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11ECTokenCalla">ECTokenCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout7EventIDa">EventID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout13EventListenera">EventListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout14ExtendedConfiga">ExtendedConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23GestureClosureWrapperFna">GestureClosureWrapperFn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout18GetOrderIdCallbacka">GetOrderIdCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout7NSASMapa">NSASMap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout26NetworkOperationCompletiona">NetworkOperationCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A4Modea">PayMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A5Tokena">PayToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout31PaysheetContainerContentDeducera">PaysheetContainerContentDeducer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout19ProcessConfiguratora">ProcessConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11RedirectURIa">RedirectURI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout16StaticIdentifiera">StaticIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout3URIa">URI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23WebExperienceCompletiona">WebExperienceCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23WebSocketAuthenticationa">WebSocketAuthentication</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ContentConfig</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ContentConfig</span></code></pre>
+
+                </div>
+              </div>
+            <p>The Config used to determine UI customization, such as font and color customization</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/General%20Fonts"></a>
+                <a name="//apple_ref/swift/Section/General Fonts" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/General%20Fonts"></a>
+                  <h3 class="section-name"><p>General Fonts</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11primaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/primaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11primaryFontSo6UIFontCvp">primaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The primary font to be employed in the UI for non special circumstances</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">primaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC13secondaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/secondaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC13secondaryFontSo6UIFontCvp">secondaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Usually a sub-heading or alternative text font that is used in some scenarios</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">secondaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12tertiaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12tertiaryFontSo6UIFontCvp">tertiaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A sub-sub heading in most cases. Smaller than secondary font in size</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tertiaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14quaternaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/quaternaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14quaternaryFontSo6UIFontCvp">quaternaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A sub-sub heading&rsquo;s value. Smallest of the four system font sizes</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">quaternaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC8boldFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/boldFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC8boldFontSo6UIFontCvp">boldFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When text needs to be emphasized, this font is used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">boldFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC17boldSecondaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/boldSecondaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC17boldSecondaryFontSo6UIFontCvp">boldSecondaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bolded smaller font</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">boldSecondaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10headerFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/headerFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10headerFontSo6UIFontCvp">headerFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>For header text in header views</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">headerFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemFont13So6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemFont13" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemFont13So6UIFontCvp">systemFont13</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Large font of size 13</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">systemFont13</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemFont15So6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemFont15" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemFont15So6UIFontCvp">systemFont15</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Large font of size 15</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">systemFont15</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemFont24So6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemFont24" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemFont24So6UIFontCvp">systemFont24</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Large font of size 24</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">systemFont24</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemFont30So6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemFont30" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemFont30So6UIFontCvp">systemFont30</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Large font of size 30</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">systemFont30</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Component%20Specific%20Fonts"></a>
+                <a name="//apple_ref/swift/Section/Component Specific Fonts" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Component%20Specific%20Fonts"></a>
+                  <h3 class="section-name"><p>Component Specific Fonts</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC15cardPrimaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/cardPrimaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC15cardPrimaryFontSo6UIFontCvp">cardPrimaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for the card&rsquo;s primary label which is shown in the bottom left corner</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardPrimaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC17cardSecondaryFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/cardSecondaryFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC17cardSecondaryFontSo6UIFontCvp">cardSecondaryFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for the card&rsquo;s secondary label which is shown in the bottom left corner below primary label</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardSecondaryFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC16cardBankNameFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/cardBankNameFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC16cardBankNameFontSo6UIFontCvp">cardBankNameFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for the card&rsquo;s bank label which is shown in the middle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardBankNameFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14cardAddNewFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/cardAddNewFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14cardAddNewFontSo6UIFontCvp">cardAddNewFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for the card&rsquo;s &ldquo;Add New Card&rdquo; label which is shown in the middle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cardAddNewFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC13starLabelFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/starLabelFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC13starLabelFontSo6UIFontCvp">starLabelFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This font is used for the label in the preferredView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">starLabelFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14titleLabelFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/titleLabelFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14titleLabelFontSo6UIFontCvp">titleLabelFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font used for the profile title labels</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">titleLabelFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20profilePageLinksFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/profilePageLinksFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20profilePageLinksFontSo6UIFontCvp">profilePageLinksFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font used for the profile links</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">profilePageLinksFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC16userFullNameFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/userFullNameFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC16userFullNameFontSo6UIFontCvp">userFullNameFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font used for the user&rsquo;s full name</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">userFullNameFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC13ctaButtonFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/ctaButtonFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC13ctaButtonFontSo6UIFontCvp">ctaButtonFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for CTA buttons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ctaButtonFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12boldLinkFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/boldLinkFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12boldLinkFontSo6UIFontCvp">boldLinkFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for conversion options link button</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">boldLinkFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC13subheaderFontSo6UIFontCvp"></a>
+                    <a name="//apple_ref/swift/Property/subheaderFont" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC13subheaderFontSo6UIFontCvp">subheaderFont</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Font for bold subheader</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">subheaderFont</span><span class="p">:</span> <span class="kt">UIFont</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Colors"></a>
+                <a name="//apple_ref/swift/Section/Colors" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Colors"></a>
+                  <h3 class="section-name"><p>Colors</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10colorSheetSDyAA9ColorTypeOSo7UIColorCGvp"></a>
+                    <a name="//apple_ref/swift/Property/colorSheet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10colorSheetSDyAA9ColorTypeOSo7UIColorCGvp">colorSheet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set of colors used across all UI</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">colorSheet</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:14PayPalCheckout10ColorSheeta">ColorSheet</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12primaryColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/primaryColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12primaryColorSo7UIColorCvp">primaryColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The primary color for calls to action as well prominent defaults</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">primaryColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC9blackTextSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/blackText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC9blackTextSo7UIColorCvp">blackText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">blackText</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12successColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/successColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12successColorSo7UIColorCvp">successColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The color used to indicate success, this is often a green color</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">successColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12warningColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/warningColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12warningColorSo7UIColorCvp">warningColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The color used to indicate a warning or caution, this is often a yellow/orange color</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">warningColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10errorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/errorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10errorColorSo7UIColorCvp">errorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The color used to inidcate something has gone wrong, this usually a red color</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">errorColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC16translucentColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/translucentColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC16translucentColorSo7UIColorCvp">translucentColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This defaults to dark color with low opacity (R0.2,G0.2,B0.2,A0.3)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">translucentColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC16transparentColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/transparentColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC16transparentColorSo7UIColorCvp">transparentColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This defaults to <code>UIColor.clear</code> but can be changed for debugging or other specific
+purposes an SDK engineer might deem useful.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">transparentColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10labelColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/labelColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10labelColorSo7UIColorCvp">labelColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">labelColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC19secondaryLabelColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/secondaryLabelColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC19secondaryLabelColorSo7UIColorCvp">secondaryLabelColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">secondaryLabelColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC18tertiaryLabelColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiaryLabelColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC18tertiaryLabelColorSo7UIColorCvp">tertiaryLabelColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tertiaryLabelColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20quaternaryLabelColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/quaternaryLabelColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20quaternaryLabelColorSo7UIColorCvp">quaternaryLabelColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">quaternaryLabelColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC22labelOnLightBackgroundSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/labelOnLightBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC22labelOnLightBackgroundSo7UIColorCvp">labelOnLightBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">labelOnLightBackground</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC21labelOnDarkBackgroundSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/labelOnDarkBackground" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC21labelOnDarkBackgroundSo7UIColorCvp">labelOnDarkBackground</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">labelOnDarkBackground</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC21buttonNormalTextColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonNormalTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC21buttonNormalTextColorSo7UIColorCvp">buttonNormalTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The normal text color to use when a button has a background color</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">buttonNormalTextColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC22callToActionBlueButtonSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/callToActionBlueButton" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC22callToActionBlueButtonSo7UIColorCvp">callToActionBlueButton</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">callToActionBlueButton</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20placeholderTextColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/placeholderTextColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20placeholderTextColorSo7UIColorCvp">placeholderTextColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">placeholderTextColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC9linkColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/linkColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC9linkColorSo7UIColorCvp">linkColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">linkColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14separatorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/separatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14separatorColorSo7UIColorCvp">separatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">separatorColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20opaqueSeparatorColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/opaqueSeparatorColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20opaqueSeparatorColorSo7UIColorCvp">opaqueSeparatorColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">opaqueSeparatorColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC15systemFillColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemFillColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC15systemFillColorSo7UIColorCvp">systemFillColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemFillColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC24secondarySystemFillColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/secondarySystemFillColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC24secondarySystemFillColorSo7UIColorCvp">secondarySystemFillColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">secondarySystemFillColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC23tertiarySystemFillColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiarySystemFillColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC23tertiarySystemFillColorSo7UIColorCvp">tertiarySystemFillColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tertiarySystemFillColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC25quaternarySystemFillColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/quaternarySystemFillColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC25quaternarySystemFillColorSo7UIColorCvp">quaternarySystemFillColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">quaternarySystemFillColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC21systemBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC21systemBackgroundColorSo7UIColorCvp">systemBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC30secondarySystemBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/secondarySystemBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC30secondarySystemBackgroundColorSo7UIColorCvp">secondarySystemBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">secondarySystemBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC29tertiarySystemBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiarySystemBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC29tertiarySystemBackgroundColorSo7UIColorCvp">tertiarySystemBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tertiarySystemBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC28systemGroupedBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGroupedBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC28systemGroupedBackgroundColorSo7UIColorCvp">systemGroupedBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGroupedBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC37secondarySystemGroupedBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/secondarySystemGroupedBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC37secondarySystemGroupedBackgroundColorSo7UIColorCvp">secondarySystemGroupedBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">secondarySystemGroupedBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC36tertiarySystemGroupedBackgroundColorSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/tertiarySystemGroupedBackgroundColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC36tertiarySystemGroupedBackgroundColorSo7UIColorCvp">tertiarySystemGroupedBackgroundColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">tertiarySystemGroupedBackgroundColor</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC9systemRedSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemRed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC9systemRedSo7UIColorCvp">systemRed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemRed</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemOrangeSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemOrange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemOrangeSo7UIColorCvp">systemOrange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemOrange</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemYellowSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemYellow" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemYellowSo7UIColorCvp">systemYellow</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemYellow</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGreenSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGreen" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGreenSo7UIColorCvp">systemGreen</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGreen</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10systemTealSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemTeal" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10systemTealSo7UIColorCvp">systemTeal</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemTeal</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10systemBlueSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemBlue" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10systemBlueSo7UIColorCvp">systemBlue</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemBlue</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemIndigoSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemIndigo" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemIndigoSo7UIColorCvp">systemIndigo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemIndigo</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12systemPurpleSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemPurple" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12systemPurpleSo7UIColorCvp">systemPurple</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemPurple</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10systemPinkSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemPink" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10systemPinkSo7UIColorCvp">systemPink</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemPink</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10systemGraySo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10systemGraySo7UIColorCvp">systemGray</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGray2So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGray2So7UIColorCvp">systemGray2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray2</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGray3So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray3" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGray3So7UIColorCvp">systemGray3</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray3</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGray4So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray4" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGray4So7UIColorCvp">systemGray4</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray4</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGray5So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray5" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGray5So7UIColorCvp">systemGray5</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray5</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11systemGray6So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/systemGray6" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11systemGray6So7UIColorCvp">systemGray6</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">systemGray6</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC18lightGrayHexEAECEDSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/lightGrayHexEAECED" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC18lightGrayHexEAECEDSo7UIColorCvp">lightGrayHexEAECED</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lightGrayHexEAECED</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12darkGrayHex2So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/darkGrayHex2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12darkGrayHex2So7UIColorCvp">darkGrayHex2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">darkGrayHex2</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC18lightGrayHexCBD2D6So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/lightGrayHexCBD2D6" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC18lightGrayHexCBD2D6So7UIColorCvp">lightGrayHexCBD2D6</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lightGrayHexCBD2D6</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12darkGrayHex1So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/darkGrayHex1" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12darkGrayHex1So7UIColorCvp">darkGrayHex1</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">darkGrayHex1</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11lightOrangeSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/lightOrange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11lightOrangeSo7UIColorCvp">lightOrange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">lightOrange</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC10darkOrangeSo7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/darkOrange" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC10darkOrangeSo7UIColorCvp">darkOrange</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">darkOrange</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20toggleGreenHex00CF92So7UIColorCvp"></a>
+                    <a name="//apple_ref/swift/Property/toggleGreenHex00CF92" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20toggleGreenHex00CF92So7UIColorCvp">toggleGreenHex00CF92</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">toggleGreenHex00CF92</span><span class="p">:</span> <span class="kt">UIColor</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Animation"></a>
+                <a name="//apple_ref/swift/Section/Animation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Animation"></a>
+                  <h3 class="section-name"><p>Animation</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC15animationTimingSdvp"></a>
+                    <a name="//apple_ref/swift/Property/animationTiming" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC15animationTimingSdvp">animationTiming</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for standard animation transitions</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">animationTiming</span><span class="p">:</span> <span class="kt">TimeInterval</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Padding%20and%20corners"></a>
+                <a name="//apple_ref/swift/Section/Padding and corners" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Padding%20and%20corners"></a>
+                  <h3 class="section-name"><p>Padding and corners</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12cornerRadius12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/cornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12cornerRadius12CoreGraphics7CGFloatVvp">cornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for the Paysheet background corners</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">cornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC20observedCornerRadius12CoreGraphics7CGFloatVSgvp"></a>
+                    <a name="//apple_ref/swift/Property/observedCornerRadius" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC20observedCornerRadius12CoreGraphics7CGFloatVSgvp">observedCornerRadius</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Similar to corner radius, this value is used by the paysheet engine when
+the system is determining how much vertical space to accommodate for the
+height consumed by corner radius values. If this value is set to nil,
+a value equal to half the value of cornerRadius is allocated.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    This is primarily designed to relate to the top corners of the
+paysheet.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">observedCornerRadius</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14ctaBorderWidth12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/ctaBorderWidth" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14ctaBorderWidth12CoreGraphics7CGFloatVvp">ctaBorderWidth</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The border width for CTA button</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">ctaBorderWidth</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC9topMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/topMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC9topMargin12CoreGraphics7CGFloatVvp">topMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to calculate the maximum height of the paysheet. This value is
+subtracted from the total screen height as calculated by calls to
+<code>UIScreen.main.bounds.height - Paysheet.config.topMargin</code></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">topMargin</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC21contentViewSideMargin12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/contentViewSideMargin" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC21contentViewSideMargin12CoreGraphics7CGFloatVvp">contentViewSideMargin</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The margin for the paysheet content views (leading and trailing constant)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">contentViewSideMargin</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC8gridSize12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/gridSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC8gridSize12CoreGraphics7CGFloatVvp">gridSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Point size of grid used for determining origin and size for UI elements</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">gridSize</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC5inset12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/inset" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC5inset12CoreGraphics7CGFloatVvp">inset</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for the Inset Label insets</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">inset</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC11labelInsetsSo06UIEdgeG0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/labelInsets" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC11labelInsetsSo06UIEdgeG0Vvp">labelInsets</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used for InsetLabel types</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">labelInsets</span><span class="p">:</span> <span class="kt">UIEdgeInsets</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Icon%20and%20Image%20Sizes"></a>
+                <a name="//apple_ref/swift/Section/Icon and Image Sizes" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Icon%20and%20Image%20Sizes"></a>
+                  <h3 class="section-name"><p>Icon and Image Sizes</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC12iconGridSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/iconGridSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC12iconGridSizeSo6CGRectVvp">iconGridSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Grid size for the cell icons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">iconGridSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC14buttonGridSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonGridSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC14buttonGridSizeSo6CGRectVvp">buttonGridSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Grid size for the cell buttons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">buttonGridSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC17tableCellIconSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/tableCellIconSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC17tableCellIconSizeSo6CGRectVvp">tableCellIconSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default icon size for UITableViewCell icons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">tableCellIconSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC19tableCellButtonSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/tableCellButtonSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC19tableCellButtonSizeSo6CGRectVvp">tableCellButtonSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Default button size for UITableViewCell buttons</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">lazy</span> <span class="k">var</span> <span class="nv">tableCellButtonSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC21carouselSelectionZoom12CoreGraphics7CGFloatVvp"></a>
+                    <a name="//apple_ref/swift/Property/carouselSelectionZoom" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC21carouselSelectionZoom12CoreGraphics7CGFloatVvp">carouselSelectionZoom</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The coefficient used to scale card from size in unselected state to size in selected state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">carouselSelectionZoom</span><span class="p">:</span> <span class="kt">CGFloat</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC25carouselSelectedImageSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/carouselSelectedImageSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC25carouselSelectedImageSizeSo6CGRectVvp">carouselSelectedImageSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The size for the selected carousel card (equal to original image size)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">carouselSelectedImageSize</span><span class="p">:</span> <span class="kt">CGRect</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC27carouselUnselectedImageSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/carouselUnselectedImageSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC27carouselUnselectedImageSizeSo6CGRectVvp">carouselUnselectedImageSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The size for the unselected carousel cards</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">carouselUnselectedImageSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout13ContentConfigC17carouselImageSizeSo6CGRectVvp"></a>
+                    <a name="//apple_ref/swift/Property/carouselImageSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout13ContentConfigC17carouselImageSizeSo6CGRectVvp">carouselImageSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The layout size for the carousel cards</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">carouselImageSize</span><span class="p">:</span> <span class="kt">CGRect</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

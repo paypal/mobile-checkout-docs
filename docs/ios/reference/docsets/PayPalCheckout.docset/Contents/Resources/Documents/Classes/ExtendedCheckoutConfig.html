@@ -1,0 +1,1709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ExtendedCheckoutConfig Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ExtendedCheckoutConfig" class="dashAnchor"></a>
+    <a title="ExtendedCheckoutConfig Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">PayPalCheckout 0.37.0 Docs</a> (64% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">PayPalCheckout Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ExtendedCheckoutConfig Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ActionClosureWrapper.html">ActionClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AddAction.html">AddAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AmountView.html">AmountView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Approval.html">Approval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ApprovalData.html">ApprovalData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout010ApproveWebC4StepC">ApproveWebCheckoutStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AspectRatioImageView.html">AspectRatioImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout16AuthenticateStepC">AuthenticateStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthorizeActionSuccess.html">AuthorizeActionSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BackAction.html">BackAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BrandedBackgroundView.html">BrandedBackgroundView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CaptureActionSuccess.html">CaptureActionSuccess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselCell.html">CarouselCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselCell/LabelType.html">– LabelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CarouselView.html">CarouselView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CheckDuplicateSessionStep.html">CheckDuplicateSessionStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Checkout.html">Checkout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CheckoutConfig.html">CheckoutConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15ConfigureUIStepC">ConfigureUIStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentConfig.html">ContentConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentPage.html">ContentPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ContentRouter.html">ContentRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CorrelationIDs.html">CorrelationIDs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CreateOrderAction.html">CreateOrderAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CurrencyConversionOptionHeaderView.html">CurrencyConversionOptionHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout28CurrencyConversionOptionPageC">CurrencyConversionOptionPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeliverySelectionHeaderView.html">DeliverySelectionHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout21DeliverySelectionPageC">DeliverySelectionPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DeliveryView.html">DeliveryView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19DismissPaysheetStepC">DismissPaysheetStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15EligibilityStepC">EligibilityStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EnvironmentConfig.html">EnvironmentConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ErrorInfo.html">ErrorInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/EventData.html">EventData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Events.html">Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ExtendedCheckoutConfig.html">ExtendedCheckoutConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GestureClosureWrapper.html">GestureClosureWrapper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19GetFeatureFlagsStepC">GetFeatureFlagsStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/GraphQLMutationState.html">GraphQLMutationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HeaderSubTitleLabel.html">HeaderSubTitleLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HeaderTitleLabel.html">HeaderTitleLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout8HomePageC">HomePage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18InboundNetworkStepC">InboundNetworkStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22InitializeFirebaseStepC">InitializeFirebaseStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout16InitializeUIStepC">InitializeUIStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15LSATUpgradeTaskC">LSATUpgradeTask</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Legalese.html">Legalese</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11LoadingPageC">LoadingPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LogoImageView.html">LogoImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout10LogoutStepC">LogoutStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MappedNetworkInput.html">MappedNetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19MoveToErrorPageStepC">MoveToErrorPageStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19MoveToFinishingPageC">MoveToFinishingPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18MoveToHomepageStepC">MoveToHomepageStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout18MoveToShutdownPageC">MoveToShutdownPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderActionData.html">OrderActionData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderActions.html">OrderActions</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderAddress.html">OrderAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext.html">OrderApplicationContext</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/ShippingPreference.html">– ShippingPreference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/UserAction.html">– UserAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentMethod.html">– PaymentMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PayerSelected.html">– PayerSelected</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PayeePreferred.html">– PayeePreferred</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/StandardEntryClassCode.html">– StandardEntryClassCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/StoredPaymentSource.html">– StoredPaymentSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentInitiator.html">– PaymentInitiator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PaymentType.html">– PaymentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/Usage.html">– Usage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/PreviousNetworkTransactionReference.html">– PreviousNetworkTransactionReference</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderApplicationContext/Network.html">– Network</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer.html">OrderPayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/Name.html">– Name</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/Phone.html">– Phone</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/PhoneType.html">– PhoneType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/PhoneNumber.html">– PhoneNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/TaxInfo.html">– TaxInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderPayer/TaxIdType.html">– TaxIdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderRequest.html">OrderRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OrderedNetworkInput.html">OrderedNetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19OutboundNetworkStepC">OutboundNetworkStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentButton.html">PaymentButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PaymentButtonConfig.html">PaymentButtonConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ProfileImageBubble.html">ProfileImageBubble</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11ProfilePageC">ProfilePage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit.html">PurchaseUnit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Amount.html">– Amount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Breakdown.html">– Breakdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Payee.html">– Payee</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/PaymentInstruction.html">– PaymentInstruction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/PlatformFees.html">– PlatformFees</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/DisbursementMode.html">– DisbursementMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Item.html">– Item</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Tax.html">– Tax</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Category.html">– Category</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/Shipping.html">– Shipping</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PurchaseUnit/ShippingName.html">– ShippingName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RateChangePolicyHeaderView.html">RateChangePolicyHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RateChangeView.html">RateChangeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22RateProtectionInfoPageC">RateProtectionInfoPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout20ResetEnvironmentStepC">ResetEnvironmentStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SequenceProcessor.html">SequenceProcessor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SequenceProcessor/Callback.html">– Callback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingAmount.html">ShippingAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChange.html">ShippingChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChangeAddress.html">ShippingChangeAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingChangeError.html">ShippingChangeError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingContainerView.html">ShippingContainerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout19ShippingDetailsPageC">ShippingDetailsPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingMethod.html">ShippingMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ShippingView.html">ShippingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout20ShutdownFirebaseStepC">ShutdownFirebaseStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout15SmartWalletStepC">SmartWalletStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/State.html">State</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TransitionLabel.html">TransitionLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnconstrainedTextLabel.html">UnconstrainedTextLabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UndefinedPage.html">UndefinedPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnitAmount.html">UnitAmount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout22UpdateClientConfigStepC">UpdateClientConfigStep</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/s:14PayPalCheckout11WebViewPageC">WebViewPage</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/APICallStatus.html">APICallStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Analytics.html">Analytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BankAccountType.html">BankAccountType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BrandedBackgroundConfigErrors.html">BrandedBackgroundConfigErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ButtonStateKey.html">ButtonStateKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CardIssuer.html">CardIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CheckoutState.html">CheckoutState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ColorType.html">ColorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentLayout.html">ContentLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ContentSection.html">ContentSection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyCode.html">CurrencyCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CurrencyConversionType.html">CurrencyConversionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen.html">ECTokenGen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen/TokenEndpoint.html">– TokenEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Environment.html">Environment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventPlayback.html">EventPlayback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventType.html">EventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EventTypeData.html">EventTypeData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Experience.html">Experience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FIType.html">FIType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FPTIEventType.html">FPTIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackReason.html">FallbackReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackType.html">FallbackType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FetchError.html">FetchError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FixedLocation.html">FixedLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentMethodType.html">FundingInstrumentMethodType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentSubType.html">FundingInstrumentSubType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FundingInstrumentType.html">FundingInstrumentType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HTTPMethod.html">HTTPMethod</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/HeightChange.html">HeightChange</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/I18n.html">I18n</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogAudience.html">LogAudience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogGating.html">LogGating</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogoPositioningErrors.html">LogoPositioningErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkActionType.html">NetworkActionType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkInputType.html">NetworkInputType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkStatus.html">NetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/NetworkSynchronicity.html">NetworkSynchronicity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OrderIntent.html">OrderIntent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PayPalLinks.html">PayPalLinks</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonEdges.html">PaymentButtonEdges</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonSize.html">PaymentButtonSize</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PaymentButtonType.html">PaymentButtonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PresentationMode.html">PresentationMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RequestError.html">RequestError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKFatalStepErrors.html">SDKFatalStepErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKGeneralErrors.html">SDKGeneralErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKIOErrors.html">SDKIOErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SDKNonFatalStepErrors.html">SDKNonFatalStepErrors</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SharedUI.html">SharedUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShippingChangeState.html">ShippingChangeState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ShippingType.html">ShippingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSContingencyReasonType.html">ThreeDSContingencyReasonType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSContingencySourceType.html">ThreeDSContingencySourceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ThreeDSPaymentExperience.html">ThreeDSPaymentExperience</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html">Transition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO5StartO">– Start</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO9FinishingO">– Finishing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO8ShutdownO">– Shutdown</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Transition.html#/s:14PayPalCheckout10TransitionO5ErrorO">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIFontVariant.html">UIFontVariant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UIViewGestureType.html">UIViewGestureType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UserAction.html">UserAction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WebRoute.html">WebRoute</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/CGImage.html">CGImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/ColorSheet.html">ColorSheet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DispatchQueue.html">DispatchQueue</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSAttributedString.html">NSAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/PayPalSessionTokenResponse.html">PayPalSessionTokenResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/PayPalSessionTokenResponse.html#/Payload">– Payload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIButton.html">UIButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIColor.html">UIColor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControl.html">UIControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIFont.html">UIFont</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UILabel.html">UILabel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2neoiySbAA18StaticIdentifiable_p_AaC_ptF">!=(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2eeoiySbAA18StaticIdentifiable_p_AaC_ptF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout2eeoiySbAA7Address_p_AaC_ptF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log__8audience6gating9separator10terminatoryAA8LogLevelO_SayypGAA0I8AudienceOAA0I6GatingOS2StF">log(_:_:audience:gating:separator:terminator:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log__8audience6gating9separator10terminatoryAA8LogLevelO_ypdAA0I8AudienceOAA0I6GatingOS2StF">log(_:_:audience:gating:separator:terminator:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:14PayPalCheckout3log_8audience6gating9separator10terminatoryypd_AA11LogAudienceOAA0I6GatingOS2StF">log(_:audience:gating:separator:terminator:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ActionableRow.html">ActionableRow</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Address.html">Address</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/AlignableImageView.html">AlignableImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Amount.html">Amount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccount.html">BankAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountBeneficiary.html">BankAccountBeneficiary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountCreditor.html">BankAccountCreditor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/BankAccountIssuer.html">BankAccountIssuer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Cart.html">Cart</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CartItem.html">CartItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutProcess.html">CheckoutProcess</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutProcesses.html">CheckoutProcesses</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CheckoutSession.html">CheckoutSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConfirmCreditCardCvvContingency.html">ConfirmCreditCardCvvContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ContentView.html">ContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CurrencyConversion.html">CurrencyConversion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/EventPayload.html">EventPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FIModelBase.html">FIModelBase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FadingContentView.html">FadingContentView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingInstrument.html">FundingInstrument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingOption.html">FundingOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FundingSource.html">FundingSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Merchant.html">Merchant</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkInput.html">NetworkInput</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkResult.html">NetworkResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout13NonFatalErrorP">NonFatalError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OpenBankingContingency.html">OpenBankingContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PPCOffersContent.html">PPCOffersContent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentButtonDelegate.html">PaymentButtonDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentButtonProvider.html">PaymentButtonProvider</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PaymentContingencies.html">PaymentContingencies</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Plan.html">Plan</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PlanTypes.html">PlanTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ProviderCreditOffer.html">ProviderCreditOffer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ShippingAddress.html">ShippingAddress</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StaticIdentifiable.html">StaticIdentifiable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/StrongCustomerAuthenticationRequiredContingency.html">StrongCustomerAuthenticationRequiredContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSContingencyContextData.html">ThreeDSContingencyContextData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSJwtSpecification.html">ThreeDSJwtSpecification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSPaymentCardData.html">ThreeDSPaymentCardData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDSResolution.html">ThreeDSResolution</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDomainSecureContingency.html">ThreeDomainSecureContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ThreeDomainSecureResolutionContingency.html">ThreeDomainSecureResolutionContingency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Transitionable.html">Transitionable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UserCheckoutPayload.html">UserCheckoutPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout9ViewModelP">ViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ViewModelView.html">ViewModelView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AnalyticsConfig.html">AnalyticsConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/BrandedBackgroundConfig.html">BrandedBackgroundConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ButtonState.html">ButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ButtonState/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutApprovePaymentResult.html">CheckoutApprovePaymentResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutCompleteResult.html">CheckoutCompleteResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CheckoutSessionResult.html">CheckoutSessionResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CodeLocation.html">CodeLocation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalTracking.html">ExternalTracking</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalTrackingProperty.html">ExternalTrackingProperty</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FPTIEntry.html">FPTIEntry</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FPTIEvent.html">FPTIEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GQLAddAddressPayload.html">GQLAddAddressPayload</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ImageAlignment.html">ImageAlignment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/L10n.html">L10n</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LogoPositioningConfig.html">LogoPositioningConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkOperation.html">NetworkOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NetworkOperationResult.html">NetworkOperationResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/UserCheckoutResult.html">UserCheckoutResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout22ActionClosureWrapperFna">ActionClosureWrapperFn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout9AuthTokena">AuthToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0C11ProcessItema">CheckoutProcessItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0C7Stringsa">CheckoutStrings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout10ColorSheeta">ColorSheet</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout6Configa">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout18ContentConstrainera">ContentConstrainer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout19CustomContentLayouta">CustomContentLayout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11ECTokenCalla">ECTokenCall</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout7EventIDa">EventID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout13EventListenera">EventListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout14ExtendedConfiga">ExtendedConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23GestureClosureWrapperFna">GestureClosureWrapperFn</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout18GetOrderIdCallbacka">GetOrderIdCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout7NSASMapa">NSASMap</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout26NetworkOperationCompletiona">NetworkOperationCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A4Modea">PayMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A5Tokena">PayToken</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout31PaysheetContainerContentDeducera">PaysheetContainerContentDeducer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout19ProcessConfiguratora">ProcessConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11RedirectURIa">RedirectURI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout16StaticIdentifiera">StaticIdentifier</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout3URIa">URI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23WebExperienceCompletiona">WebExperienceCompletion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout23WebSocketAuthenticationa">WebSocketAuthentication</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ExtendedCheckoutConfig</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">class</span> <span class="kt">ExtendedCheckoutConfig</span> <span class="p">:</span> <span class="kt"><a href="../Classes/CheckoutConfig.html">CheckoutConfig</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>This class should contain all the extended featurs privy to first party
+or implicity trusted host applications. Those not explicity validated to
+be on the whitelist for the PayPal iOS Checkout SDK will find that all
+extended features in this class are ignored.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEventCallbacka"></a>
+                    <a name="//apple_ref/swift/Alias/AnalyticsEventCallback" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEventCallbacka">AnalyticsEventCallback</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The closure format for analytics event</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">AnalyticsEventCallback</span> <span class="o">=</span> <span class="p">(</span><span class="kt"><a href="../Structs/FPTIEvent.html">FPTIEvent</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEntryCallbacka"></a>
+                    <a name="//apple_ref/swift/Alias/AnalyticsEntryCallback" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEntryCallbacka">AnalyticsEntryCallback</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The closure format for analytics entry</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">AnalyticsEntryCallback</span> <span class="o">=</span> <span class="p">(</span><span class="kt"><a href="../Structs/FPTIEntry.html">FPTIEntry</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC17networkOperationsSayAA16NetworkOperationVGvp"></a>
+                    <a name="//apple_ref/swift/Property/networkOperations" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC17networkOperationsSayAA16NetworkOperationVGvp">networkOperations</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This list of tuples defining any custom network traffic to handled
+during SDK operations for inbound and outbound traffic can be specified
+here.</p>
+
+<p>The tuple has three values, the first value is usually a <code>String</code> but
+can be any type of <code>AnyHashable</code> that uniquely identifies the
+NetworkOperation. The second value is the type of network action to
+perform; this can be any of <code>.Inbound</code>, <code>.Outbound</code>, or
+<code>.InboundOutbound</code>. The <code>.InboundOutbound</code> type gets invoked for both
+scenarios, but otherwise the supplied <code><a href="../Structs/NetworkOperation.html">NetworkOperation</a></code> closure, which
+is the third parameter, gets invoked either at the beginning (Inbound)
+or at the end (Outbound) of the SDK usage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">networkOperations</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/NetworkOperation.html">NetworkOperation</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC017brandedBackgroundcE0AA07BrandedgE0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/brandedBackgroundCheckoutConfig" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC017brandedBackgroundcE0AA07BrandedgE0VSgvp">brandedBackgroundCheckoutConfig</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">brandedBackgroundCheckoutConfig</span><span class="p">:</span> <span class="kt"><a href="../Structs/BrandedBackgroundConfig.html">BrandedBackgroundConfig</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)sessionUID"></a>
+                    <a name="//apple_ref/swift/Property/sessionUID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)sessionUID">sessionUID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A  session ID generated from the Smart Payment
+Button will be required to authenticate the Firebase App.
+The sessionUID is retrieved from the merchant and
+then used with PayPal&rsquo;s GraphQL to generate a sessionToken.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">sessionUID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)buttonSessionID"></a>
+                    <a name="//apple_ref/swift/Property/buttonSessionID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)buttonSessionID">buttonSessionID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The button session id associated with the merchant from SPB (web to app).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">buttonSessionID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)stickinessID"></a>
+                    <a name="//apple_ref/swift/Property/stickinessID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)stickinessID">stickinessID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The stickiness id associated passed from SPB</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">stickinessID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)pageUrl"></a>
+                    <a name="//apple_ref/swift/Property/pageUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)pageUrl">pageUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">pageUrl</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)facilitatorClientID"></a>
+                    <a name="//apple_ref/swift/Property/facilitatorClientID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)facilitatorClientID">facilitatorClientID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Merchant&rsquo;s client ID</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">facilitatorClientID</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)domain"></a>
+                    <a name="//apple_ref/swift/Property/domain" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)domain">domain</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Merchant&rsquo;s domain</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">domain</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)enableFunding"></a>
+                    <a name="//apple_ref/swift/Property/enableFunding" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)enableFunding">enableFunding</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Allows merchants to force an experience on, for example Venmo (passed from SPB)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">enableFunding</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)appGuid"></a>
+                    <a name="//apple_ref/swift/Property/appGuid" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)appGuid">appGuid</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The app guid is passed from consumer app, stored in Keychain. It is utilized
+as a way to tie together events from different components when triaging issues
+on the server-side.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">appGuid</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)deviceId"></a>
+                    <a name="//apple_ref/swift/Property/deviceId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)deviceId">deviceId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The device id is passed from the consumer app, stored in Keychain. It is utilized
+as a way to tie together events from different components when triaging issues
+on the server side.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">deviceId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC16configureProcessyAA0C9Processes_pcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/configureProcess" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC16configureProcessyAA0C9Processes_pcSgvp">configureProcess</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure that allows apps to configure different processes such as startup and shutdown</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">configureProcess</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:14PayPalCheckout19ProcessConfiguratora">ProcessConfigurator</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC13configureViewyAA13ContentRouterCcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/configureView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC13configureViewyAA13ContentRouterCcSgvp">configureView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A closure that allows apps to configure different views such as shipping view</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">configureView</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC16presentationModeAA012PresentationG0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/presentationMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC16presentationModeAA012PresentationG0Ovp">presentationMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Presentation mode defines how pay sheet will be presented in the host app</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">presentationMode</span><span class="p">:</span> <span class="kt"><a href="../Enums/PresentationMode.html">PresentationMode</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC12externalLogsSayAA16ExternalTrackingVGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/externalLogs" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC12externalLogsSayAA16ExternalTrackingVGSgvp">externalLogs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>External Logging</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">externalLogs</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/ExternalTracking.html">ExternalTracking</a></span><span class="p">]?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)skipsShippingAddressContingency"></a>
+                    <a name="//apple_ref/swift/Property/skipsShippingAddressContingency" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)skipsShippingAddressContingency">skipsShippingAddressContingency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>When transaction requires a shipping address and a user does not have one
+SDK cannot proceed and falls back to web. Setting this property to <code>true</code> allows SDK to proceed
+with responsibility to collect a shipping address and provide it to SDK moving to the host app.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">skipsShippingAddressContingency</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)supportsWebFallbacks"></a>
+                    <a name="//apple_ref/swift/Property/supportsWebFallbacks" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)supportsWebFallbacks">supportsWebFallbacks</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Indicates whether or not web fallbacks are supported</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">supportsWebFallbacks</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)usesFirebase"></a>
+                    <a name="//apple_ref/swift/Property/usesFirebase" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)ExtendedCheckoutConfig(py)usesFirebase">usesFirebase</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to determine whether we&rsquo;re using Firebase in the current lifecycle</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">usesFirebase</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC16onAnalyticsEventyAA9FPTIEventVcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onAnalyticsEvent" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC16onAnalyticsEventyAA9FPTIEventVcSgvp">onAnalyticsEvent</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when SDK logs an analytics event</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onAnalyticsEvent</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExtendedCheckoutConfig.html#/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEventCallbacka">AnalyticsEventCallback</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC16onAnalyticsEntryyAA9FPTIEntryVcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onAnalyticsEntry" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC16onAnalyticsEntryyAA9FPTIEntryVcSgvp">onAnalyticsEntry</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when SDK logs an analytics entry</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onAnalyticsEntry</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExtendedCheckoutConfig.html#/s:14PayPalCheckout08ExtendedC6ConfigC22AnalyticsEntryCallbacka">AnalyticsEntryCallback</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/init(sPBQueryBodyConfig:configureFirebaseApp:environment:clientID:universalLink:uriScheme:appGuid:deviceId:onApprove:onCancel:onError:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">init(sPBQueryBodyConfig:<wbr>configureFirebaseApp:<wbr>environment:<wbr>clientID:<wbr>universalLink:<wbr>uriScheme:<wbr>appGuid:<wbr>deviceId:<wbr>onApprove:<wbr>onCancel:<wbr>onError:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize specifically for the flow where we get the paytoken/orderID/EC-Token from Firebase</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/init(clientID:payToken:universalLink:uriScheme:onApprove:onCancel:onError:environment:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">init(clientID:<wbr>payToken:<wbr>universalLink:<wbr>uriScheme:<wbr>onApprove:<wbr>onCancel:<wbr>onError:<wbr>environment:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize specifically for the flow where we get the paytoken/orderID/EC-Token from Firebase</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/init(clientID:universalLink:uriScheme:createOrder:onApprove:onCancel:onError:environment:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">init(clientID:<wbr>universalLink:<wbr>uriScheme:<wbr>createOrder:<wbr>onApprove:<wbr>onCancel:<wbr>onError:<wbr>environment:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize specifically for when order is created inside the SDK / or when payToken is set with CreateOrderAction in CreateOrderCallback</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/NSCopying"></a>
+                <a name="//apple_ref/swift/Section/NSCopying" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/NSCopying"></a>
+                  <h3 class="section-name"><p>NSCopying</p>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/"></a>
+                    <a name="//apple_ref/swift/Method/copy(with:)" class="dashAnchor"></a>
+                    <a class="token" href="#/">copy(with:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
