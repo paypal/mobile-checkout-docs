@@ -421,7 +421,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrating-flat/" class="md-nav__link">
+      <a href="../integrating-experience/" class="md-nav__link">
         Integrating Experience
       </a>
     </li>
@@ -433,7 +433,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integrating-experience/" class="md-nav__link">
+      <a href="../integrating-flat/" class="md-nav__link">
         Integrating Flat
       </a>
     </li>
@@ -770,7 +770,7 @@ continueUserActivity:(NSUserActivity *)userActivity
 <p>This gives an opportunity for the PayPal Native Checkout SDK to handle, the deep links and Universal Link you are registered in the prior section while editing the <code>Info.plist</code> file.</p>
 <hr />
 <h2 id="integration-steps-for-web-intercept">Integration Steps for Web Intercept</h2>
-<p><img src="../../images/experience_native.png" height="650" style="border:1px solid #eee;"/></p>
+<p><img src="../../images/experience-native.png" height="650" style="border:1px solid #eee;"/></p>
 <h3 id="webview-intercept">Webview Intercept</h3>
 <p>If the preceeding integration has collisions with code around the webview, manual intercepting of the webview is possible, as shown in these examples.</p>
 <p>Set Checkout's delegate as your class. This allows PayPal Checkout to return <code>PayPalCheckoutCompleted</code> method, after finishing checkout.</p>
@@ -834,7 +834,7 @@ shouldStartLoadWithRequest:(NSURLRequest *)request
 </code></pre>
 <h2 id="no-native-ui-mode">No Native UI Mode</h2>
 <p>The secure browser method, implements a sandboxed in app browser (Safari View Controller, or Chrome Custom Tab), and eases the integration required for a developer. This path also implements the PayPal Risk library.</p>
-<p><img src="../../images/experience_sfvc.png" height="650" style="border:1px solid #eee;"/></p>
+<p><img src="../../images/experience-sfvc.png" height="650" style="border:1px solid #eee;"/></p>
 <p>To disable the UI, simply set the <code>webBrowserOnlyMode</code> on the <code>Checkout</code> object.</p>
 <p>Example of Webview Intercept</p>
 <pre><code class="language-objc">PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
@@ -863,7 +863,7 @@ checkout.webBrowserOnlyMode = @YES;
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../integrating-experience/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../integrating-flat/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
