@@ -1,13 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/BrandedBackgroundConfig.swift",
-      "line": 11,
-      "symbol": "BrandedBackgroundConfigErrors",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/CheckoutSession/Enums/ThreeDomainSecureEnums.swift",
       "line": 23,
       "symbol": "ThreeDSContingencySourceType",
@@ -40,13 +33,6 @@
       "line": 19,
       "symbol": "UserAction.payNow",
       "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/LogoPositioningConfig.swift",
-      "line": 11,
-      "symbol": "LogoPositioningErrors",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -369,13 +355,6 @@
       "line": 17,
       "symbol": "FallbackReason",
       "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutEvents/EventTypeData.swift",
-      "line": 17,
-      "symbol": "FIType.ButtonAction",
-      "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
@@ -1913,14 +1892,14 @@
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/ExtendedCheckoutConfig.swift",
-      "line": 145,
+      "line": 150,
       "symbol": "ExtendedCheckoutConfig.brandedBackgroundCheckoutConfig",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/ExtendedCheckoutConfig.swift",
-      "line": 161,
+      "line": 166,
       "symbol": "ExtendedCheckoutConfig.pageUrl",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -2150,244 +2129,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Enums/SDKFatalStepErrors.swift",
-      "line": 11,
-      "symbol": "SDKFatalStepErrors",
-      "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 25,
-      "symbol": "ActionClosureWrapper.closure",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 27,
-      "symbol": "ActionClosureWrapper.selector",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 31,
-      "symbol": "ActionClosureWrapper.init(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 39,
-      "symbol": "ActionClosureWrapper.invoke(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 50,
-      "symbol": "GestureClosureWrapper.closure",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 52,
-      "symbol": "GestureClosureWrapper.selector",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 56,
-      "symbol": "GestureClosureWrapper.init(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIControl+Actions.swift",
-      "line": 64,
-      "symbol": "GestureClosureWrapper.invoke(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 16,
-      "symbol": "UIFontVariant.regular",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 17,
-      "symbol": "UIFontVariant.bold",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 18,
-      "symbol": "UIFontVariant.black",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 19,
-      "symbol": "UIFontVariant.oblique",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 20,
-      "symbol": "UIFontVariant.book",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 21,
-      "symbol": "UIFontVariant.roman",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 22,
-      "symbol": "UIFontVariant.bookOblique",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 23,
-      "symbol": "UIFontVariant.heavyOblique",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 24,
-      "symbol": "UIFontVariant.italic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 25,
-      "symbol": "UIFontVariant.boldItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 26,
-      "symbol": "UIFontVariant.demiBold",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 27,
-      "symbol": "UIFontVariant.demiBoldItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 28,
-      "symbol": "UIFontVariant.heavy",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 29,
-      "symbol": "UIFontVariant.heavyItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 30,
-      "symbol": "UIFontVariant.medium",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 31,
-      "symbol": "UIFontVariant.mediumItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 32,
-      "symbol": "UIFontVariant.mediumOblique",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 33,
-      "symbol": "UIFontVariant.light",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 34,
-      "symbol": "UIFontVariant.lightItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 35,
-      "symbol": "UIFontVariant.lightOblique",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 36,
-      "symbol": "UIFontVariant.ultraLight",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Extensions/UIFont+Variants.swift",
-      "line": 37,
-      "symbol": "UIFontVariant.ultraLightItalic",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/AddAction.swift",
-      "line": 11,
-      "symbol": "AddAction",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/AddAction.swift",
-      "line": 116,
-      "symbol": "AddAction.init(frame:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/AddAction.swift",
-      "line": 117,
-      "symbol": "AddAction.init(coder:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/AmountView.swift",
       "line": 13,
       "symbol": "AmountView",
@@ -2441,41 +2182,6 @@
       "line": 72,
       "symbol": "BackAction.init(coder:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/HeaderSubTitleLabel.swift",
-      "line": 11,
-      "symbol": "HeaderSubTitleLabel",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/HeaderSubTitleLabel.swift",
-      "line": 15,
-      "symbol": "HeaderSubTitleLabel.contentConstraints",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/HeaderTitleLabel.swift",
-      "line": 11,
-      "symbol": "HeaderTitleLabel",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/HeaderTitleLabel.swift",
-      "line": 15,
-      "symbol": "HeaderTitleLabel.desiredHeight",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Header and Footer Views/HeaderTitleLabel.swift",
-      "line": 19,
-      "symbol": "HeaderTitleLabel.contentConstraints",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
@@ -2641,7 +2347,7 @@
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Lifecycle and State/Finishing Steps/MoveToFinishingPage.swift",
-      "line": 13,
+      "line": 12,
       "symbol": "MoveToFinishingPage",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -2732,7 +2438,7 @@
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Lifecycle and State/Startup Steps/GetFeatureFlagsStep.swift",
-      "line": 55,
+      "line": 59,
       "symbol": "GetFeatureFlagsStep",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -4628,48 +4334,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 14,
-      "symbol": "ShippingContainerView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 18,
-      "symbol": "ShippingContainerView.id",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 62,
-      "symbol": "ShippingContainerView.desiredHeight",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 66,
-      "symbol": "ShippingContainerView.isVisible",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 70,
-      "symbol": "ShippingContainerView.isPaysheetRow",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingContainerView.swift",
-      "line": 149,
-      "symbol": "ShippingContainerView.updateData()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingView.swift",
       "line": 14,
       "symbol": "ShippingView",
@@ -4726,5 +4390,5 @@
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout"
+  "source_directory": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/docs"
 }
