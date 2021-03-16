@@ -1,0 +1,925 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Project documentation with Markdown.">
+      
+      
+      
+        <meta name="author" content="PayPal Native Checkout Team">
+      
+      
+        <link rel="canonical" href="https://paypal.github.io/mobile-checkout-docs/ios/invoking-sdk/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.6">
+    
+    
+      
+        <title>Invoking SDK - Native Checkout</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2c0c5eaf.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#invoking-the-sdk" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Native Checkout" class="md-header__button md-logo" aria-label="Native Checkout" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Native Checkout
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Invoking SDK
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.paypal.com/nativexo/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nativexo/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Native Checkout" class="md-nav__button md-logo" aria-label="Native Checkout" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Native Checkout
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.paypal.com/nativexo/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    nativexo/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      <label class="md-nav__link" for="__nav_2">
+        Setup
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Setup" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Setup
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Setup/" class="md-nav__link">
+        Obtaining Merchant ID
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Android
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Android" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Android
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/integrating-experience/" class="md-nav__link">
+        Integrating the Checkout Experience
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/integrating-maven/" class="md-nav__link">
+        Integrating with Maven
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/invoking-sdk/" class="md-nav__link">
+        Invoking the SDK
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/Reference/" class="md-nav__link">
+        Reference
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Android/misc/" class="md-nav__link">
+        Miscellaneous
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+      
+      <label class="md-nav__link" for="__nav_4">
+        iOS
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="iOS" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          iOS
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started-with-ios/" class="md-nav__link">
+        Gettings Started with iOS
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrating-cocoapods/" class="md-nav__link">
+        Integrating Cocoapods
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrating-flat/" class="md-nav__link">
+        Integrating Experience
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../integrating-experience/" class="md-nav__link">
+        Integrating Flat
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Invoking SDK
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Invoking SDK
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-add-application-level-uri-and-universal-link-handling" class="md-nav__link">
+    1. Add Application Level URI and universal link handling
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Add Application Level URI and universal link handling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uri-scheme-handling" class="md-nav__link">
+    URI Scheme Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-link-handling" class="md-nav__link">
+    Universal Link Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-bar-resize" class="md-nav__link">
+    Status Bar Resize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-steps-for-web-intercept" class="md-nav__link">
+    Integration Steps for Web Intercept
+  </a>
+  
+    <nav class="md-nav" aria-label="Integration Steps for Web Intercept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#webview-intercept" class="md-nav__link">
+    Webview Intercept
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#direct-invocation" class="md-nav__link">
+    Direct Invocation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-native-ui-mode" class="md-nav__link">
+    No Native UI Mode
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../selecting-an-integration-method/" class="md-nav__link">
+        Selecting an Integration Method
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sample/" class="md-nav__link">
+        Sample
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../misc/" class="md-nav__link">
+        Misc
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reference/" class="md-nav__link">
+        Reference
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-add-application-level-uri-and-universal-link-handling" class="md-nav__link">
+    1. Add Application Level URI and universal link handling
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Add Application Level URI and universal link handling">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uri-scheme-handling" class="md-nav__link">
+    URI Scheme Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#universal-link-handling" class="md-nav__link">
+    Universal Link Handling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-bar-resize" class="md-nav__link">
+    Status Bar Resize
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integration-steps-for-web-intercept" class="md-nav__link">
+    Integration Steps for Web Intercept
+  </a>
+  
+    <nav class="md-nav" aria-label="Integration Steps for Web Intercept">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#webview-intercept" class="md-nav__link">
+    Webview Intercept
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#direct-invocation" class="md-nav__link">
+    Direct Invocation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#no-native-ui-mode" class="md-nav__link">
+    No Native UI Mode
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="invoking-the-sdk">Invoking the SDK</h1>
+<p>PayPal will watch the WebView in your application, and provide a native payment experience in place of a website.
+You can integrate manually into your application using the super easy steps below.</p>
+<h3 id="1-add-application-level-uri-and-universal-link-handling">1. Add Application Level URI and universal link handling</h3>
+<p>Add PayPal Native Checkout SDK the <code>application:openURL:</code> signature of your <code>AppDelegate.m</code> file. This is common amongst other SDKs, you may need to add these to a chain.</p>
+<h4 id="uri-scheme-handling">URI Scheme Handling</h4>
+<pre><code class="language-c">// AppDelegate.m
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+  return [[PYPLCheckout sharedInstance] handleReturnFromPaypal: url];
+}
+</code></pre>
+<h4 id="universal-link-handling">Universal Link Handling</h4>
+<pre><code class="language-c">// AppDelegate.m
+- (BOOL)application:(UIApplication *)application
+continueUserActivity:(NSUserActivity *)userActivity
+ restorationHandler:(void (^)(NSArray *restorableObjects))restorationHandler
+{
+  return [[PYPLCheckout sharedInstance] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
+}
+</code></pre>
+<h4 id="status-bar-resize">Status Bar Resize</h4>
+<pre><code class="language-c">// AppDelegate.m
+- (void)application:(UIApplication *)application didChangeStatusBarFrame:(CGRect)oldStatusBarFrame
+{
+  [[PYPLCheckout sharedInstance] application:application didChangeStatusBarFrame:oldStatusBarFrame];
+}
+</code></pre>
+<p>This gives an opportunity for the PayPal Native Checkout SDK to handle, the deep links and Universal Link you are registered in the prior section while editing the <code>Info.plist</code> file.</p>
+<hr />
+<h2 id="integration-steps-for-web-intercept">Integration Steps for Web Intercept</h2>
+<p><img src="../../images/experience_native.png" height="650" style="border:1px solid #eee;"/></p>
+<h3 id="webview-intercept">Webview Intercept</h3>
+<p>If the preceeding integration has collisions with code around the webview, manual intercepting of the webview is possible, as shown in these examples.</p>
+<p>Set Checkout's delegate as your class. This allows PayPal Checkout to return <code>PayPalCheckoutCompleted</code> method, after finishing checkout.</p>
+<pre><code>PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.delegate = self;
+</code></pre>
+<p>Depending on which <code>WebView</code> container you use, the sdk provides a signature that matches each. Each method returns a <code>BOOL</code> that will allow the application to determine if the Checkout library handled the URL.</p>
+<p>Example using a <code>WKWebView</code> as the browser container.</p>
+<pre><code class="language-objc">- (void)webView:(WKWebView *)webView
+decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction
+decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler {
+  PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+  BOOL didPayPalHandleNavigation = [checkout webView:webView decidePolicyForNavigationAction:navigationAction decisionHandler:decisionHandler];
+  if(didPayPalHandleNavigation) {
+    decisionHandler(WKNavigationActionPolicyCancel);
+  } else {
+    decisionHandler(WKNavigationActionPolicyAllow);
+  }
+}
+</code></pre>
+<p>Example using a <code>UIWebView</code> as the browser container.</p>
+<pre><code class="language-objc">- (BOOL)webView:(UIWebView *)webView
+shouldStartLoadWithRequest:(NSURLRequest *)request
+ navigationType:(UIWebViewNavigationType)navigationType {
+  PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+  return [checkout webView:webView shouldStartLoadWithRequest:request navigationType:navigationType];
+}
+</code></pre>
+<p>In both examples, the <code>PayPalCheckoutCompleted</code> method will execute, if there is no <code>Checkout JS SDK</code> integrated on the page. In the <code>Checkout JS</code> integration scenario, control will be returned to the CheckoutJS script.</p>
+<p>If there is no CheckoutJS script, the <code>details</code> dictionary object, will contain a <code>returnUrl</code> that can be used to navigate the WebView. Additionally the <code>details</code> object will be decorated with return parameters attached to the <code>returnUrl</code>.</p>
+<pre><code class="language-objc">-(void) PayPalCheckoutCompleted: (NSDictionary*) details {
+  NSLog(@&quot;Completed Checkout&quot;);
+}
+</code></pre>
+<h2 id="direct-invocation">Direct Invocation</h2>
+<p>Start the PayPal Checkout Experience directly, by providing a Payment Token from your back office.</p>
+<pre><code class="language-objc">
+//ViewController.h
+#import &lt;NativeCheckout/PYPLCheckout.h&gt;
+
+//ViewController.m
+- (void)buttonDelgate: (id)sender {
+[[PYPLCheckout sharedInstance] startCheckoutWithECToken:@&quot;provide_payment_token&quot; withDelegate: self];
+</code></pre>
+<p>The checkout experience will report back to the delegate method.</p>
+<pre><code class="language-objc">-(void) PayPalCheckoutCompleted: (NSDictionary*) details {
+}
+</code></pre>
+<p>The details object will provide the typical returns from a PayPal checkout, note the keys have been forced to lowercase for consistency.</p>
+<pre><code class="language-objc">NSDictionary* details = @{
+    @&quot;paymentid&quot;: @&quot;&quot;,
+    @&quot;paymenttoken&quot;: @&quot;&quot;,
+    @&quot;useraction&quot;: @&quot;&quot;,
+  @&quot;payerid&quot;:@&quot;&quot;
+}
+
+</code></pre>
+<p>In an instance where a user was using a native interface (such as safari view controller), and did not go through the checkout flow, <code>PayPalCheckoutCancelled</code> will be called, to let you know to refresh the state of your app.</p>
+<pre><code class="language-objc">-(void) PayPalCheckoutCancelled {
+}
+</code></pre>
+<h2 id="no-native-ui-mode">No Native UI Mode</h2>
+<p>The secure browser method, implements a sandboxed in app browser (Safari View Controller, or Chrome Custom Tab), and eases the integration required for a developer. This path also implements the PayPal Risk library.</p>
+<p><img src="../../images/experience_sfvc.png" height="650" style="border:1px solid #eee;"/></p>
+<p>To disable the UI, simply set the <code>webBrowserOnlyMode</code> on the <code>Checkout</code> object.</p>
+<p>Example of Webview Intercept</p>
+<pre><code class="language-objc">PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.webBrowserOnlyMode = @YES;
+[checkout interceptWebView:webview];
+</code></pre>
+<p>Example of Direct Invocation</p>
+<pre><code class="language-objc">PYPLCheckout* checkout = [PYPLCheckout sharedInstance];
+checkout.webBrowserOnlyMode = @YES;
+[checkout startCheckoutWithECToken:@&quot;provide_payment_token&quot; withDelegate:self];
+</code></pre>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../integrating-experience/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Integrating Flat
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../selecting-an-integration-method/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Selecting an Integration Method
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a1c7c35e.min.js"></script>
+      
+        <script src="../../extra.js"></script>
+      
+    
+  </body>
+</html>
