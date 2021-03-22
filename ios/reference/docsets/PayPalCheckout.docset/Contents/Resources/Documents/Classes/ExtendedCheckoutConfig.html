@@ -434,9 +434,6 @@
                 <a href="../Enums/EventTypeData.html">EventTypeData</a>
               </li>
               <li class="nav-group-task">
-                <a href="../Enums/Experience.html">Experience</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="../Enums/FPTIEventType.html">FPTIEventType</a>
               </li>
               <li class="nav-group-task">
@@ -769,6 +766,9 @@
                 <a href="../Structs/NetworkOperationResult.html">NetworkOperationResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/SCAStepUpResponse.html">SCAStepUpResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs/UserCheckoutResult.html">UserCheckoutResult</a>
               </li>
             </ul>
@@ -917,6 +917,62 @@ extended features in this class are ignored.</p>
                         <div class="language">
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">AnalyticsEntryCallback</span> <span class="o">=</span> <span class="p">(</span><span class="kt"><a href="../Structs/FPTIEntry.html">FPTIEntry</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC12SCAContextIDa"></a>
+                    <a name="//apple_ref/swift/Alias/SCAContextID" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC12SCAContextIDa">SCAContextID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The id required for the SCA contingency callback</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">SCAContextID</span> <span class="o">=</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC22SCAContingencyCallbacka"></a>
+                    <a name="//apple_ref/swift/Alias/SCAContingencyCallback" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC22SCAContingencyCallbacka">SCAContingencyCallback</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The closure format for running an SCAContingency. The completion expects
+optionals of access token, ID token, and error. It will either be the first two or the last one</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">SCAContingencyCallback</span> <span class="o">=</span>
+  <span class="p">(</span><span class="kt"><a href="../Classes/ExtendedCheckoutConfig.html#/s:14PayPalCheckout08ExtendedC6ConfigC12SCAContextIDa">SCAContextID</a></span><span class="p">,</span> <span class="p">(</span><span class="kd">@escaping</span> <span class="p">(</span><span class="kt"><a href="../Structs/SCAStepUpResponse.html">SCAStepUpResponse</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
 
                         </div>
                       </div>
@@ -1486,6 +1542,35 @@ with responsibility to collect a shipping address and provide it to SDK moving t
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/s:14PayPalCheckout08ExtendedC6ConfigC16onSCAContingencyySS_yAA17SCAStepUpResponseVctcSgvp"></a>
+                    <a name="//apple_ref/swift/Property/onSCAContingency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14PayPalCheckout08ExtendedC6ConfigC16onSCAContingencyySS_yAA17SCAStepUpResponseVctcSgvp">onSCAContingency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Called when Secure Customer Authentication is required at the end
+of a checkout. The token it uses will have been specified in the SCA
+section of the payload, and is not our normal auth/merchant token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">onSCAContingency</span><span class="p">:</span> <span class="kt"><a href="../Classes/ExtendedCheckoutConfig.html#/s:14PayPalCheckout08ExtendedC6ConfigC22SCAContingencyCallbacka">SCAContingencyCallback</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/"></a>
                     <a name="//apple_ref/swift/Method/init(sPBQueryBodyConfig:configureFirebaseApp:environment:clientID:universalLink:uriScheme:appGuid:deviceId:onApprove:onCancel:onError:)" class="dashAnchor"></a>
                     <a class="token" href="#/">init(sPBQueryBodyConfig:<wbr>configureFirebaseApp:<wbr>environment:<wbr>clientID:<wbr>universalLink:<wbr>uriScheme:<wbr>appGuid:<wbr>deviceId:<wbr>onApprove:<wbr>onCancel:<wbr>onError:<wbr>)</a>
@@ -1576,7 +1661,7 @@ with responsibility to collect a shipping address and provide it to SDK moving t
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-17)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-22)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

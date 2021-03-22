@@ -433,9 +433,6 @@
                 <a href="Enums/EventTypeData.html">EventTypeData</a>
               </li>
               <li class="nav-group-task">
-                <a href="Enums/Experience.html">Experience</a>
-              </li>
-              <li class="nav-group-task">
                 <a href="Enums/FPTIEventType.html">FPTIEventType</a>
               </li>
               <li class="nav-group-task">
@@ -768,6 +765,9 @@
                 <a href="Structs/NetworkOperationResult.html">NetworkOperationResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="Structs/SCAStepUpResponse.html">SCAStepUpResponse</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Structs/UserCheckoutResult.html">UserCheckoutResult</a>
               </li>
             </ul>
@@ -852,147 +852,44 @@
         <section>
           <section class="section">
             
-            <h1 id='ios-native-checkout-sdk' class='heading'>iOS Native Checkout SDK</h1>
+            <h1 id='native-checkout-for-ios' class='heading'>Native Checkout for iOS</h1>
+<h2 id='docs' class='heading'>Docs</h2>
 
-<p>This is the PayPal iOS Native Checkout SDK.</p>
-<h2 id='table-of-contents' class='heading'>Table of Contents</h2>
-
-<ol>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#summary">Summary</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#benefits">Benefits</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#supported-platforms">Supported Platforms</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#prerequisites">Prerequisites</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#installation">Installation</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout#getting-started">Getting Started</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki">Wiki</a>
-
-<ul>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Code-Signing">Running SwiftTestApp</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Getting-Started-with-Venice">Running PayPal Venice</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Release-process">Release Process</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Release-process-of-hotfix-to-Venice">Release Process for Venice Hot Fix</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/SwiftTestApp-publishing-to-PayPal-App-Store">Publishing SwiftTestApp to PayPal App Store</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/SDK-Lifecycle">SDK Lifecycle</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Production-test-merchants">Production Test Merchants</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/3rd-party-integration-issues-from-Android-team">3rd Party Integration Issues</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Create-and-Update-ELMO-Experiments">Creating ELMO Experiments</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Using-Keychain-Services">Using Keychain Services within iOS PayPal Apps</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Working-with-ActionBlocks">Working with Networking Action Blocks</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Testmerchant-API">Contributing to Testmerchant API</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Teradata-Setup">Teradata Setup</a></li>
-<li><a href="https://github.paypal.com/nativexo/ios-native-checkout/wiki/Teradata-Queries">Teradata Queries</a></li>
-</ul></li>
-</ol>
-<h2 id='summary' class='heading'>Summary</h2>
-
-<p>The NativeXO ( Native Checkout ) SDK is a set of libraries and classes to bring a native experience to a checkout on mobile phone. This is done in a two-fold manner:</p>
-
-<ul>
-<li><strong>1st Party Experience</strong>: Modules that will be part of Venice, and other first party mobile apps</li>
-<li><strong>3rd Party Experience</strong>: Libraries and assets that a merchant may include as part of their app</li>
-</ul>
-<h2 id='benefits' class='heading'>Benefits</h2>
-
-<ol>
-<li>Allows Venice and other first party apps to support web-based merchant checkouts</li>
-<li>Allows native merchant apps to use PayPal</li>
-<li>Allows a safe login on merchant apps via Venice</li>
-<li>Faster Checkout 🙂</li>
-</ol>
-<h2 id='supported-platforms' class='heading'>Supported Platforms</h2>
-
-<p>This is the incarnation that supports Swift and Objective C-based platforms.</p>
-
-<p>Currently, the SDK only supports <code>iOS 11.0</code> and above. Some features may be limited to some versions
-of the system. The support is defined within:</p>
-
-<ul>
-<li><code>Package.swift</code></li>
-<li><code>.swiftlint.yml</code></li>
-</ul>
-
-<p>Support for <code>tvOS</code>, <code>watchOS</code>, and <code>macOS</code> are theoretically possible but have not been implemented.</p>
-<h2 id='prerequisites' class='heading'>Prerequisites</h2>
-<h4 id='cocoapods' class='heading'>Cocoapods:</h4>
-
-<p>We currently use <code>Cocoapods</code> to utilize dependencies for <code>PayPalCheckout</code>, to install <code>Cocoapods</code> ensure that you have <code>ruby</code> installed which will come prepackaged on older Macbook machines, and in new units you might have to install <code>ruby</code> yourself. </p>
-
-<p>To check if you have the <code>ruby gem</code> system installed simply run:</p>
-<pre class="highlight swift"><code><span class="n">which</span> <span class="n">gem</span>
-</code></pre>
-
-<p>If you get valid output, then you are good to go. Otherwise you can utilize <code>Homebrew</code> to install <code>ruby</code>:</p>
-<pre class="highlight shell"><code>brew install ruby
-</code></pre>
-
-<p>Next install <code>cocoapods</code> if you do not already have it installed:</p>
-<pre class="highlight shell"><code>sudo gem install cocoapods
-</code></pre>
-<h4 id='swiftlint' class='heading'>SwiftLint:</h4>
-
-<p>Ensure that you have <code>SwiftLint</code> installed as we utilize it within our project.</p>
-
-<p>To install run:</p>
-<pre class="highlight shell"><code>brew install swiftlint
-</code></pre>
-
-<p>Our Xcode project already has a <code>Run Phase</code> which integrates in <code>SwiftLint</code> so the only prerequisite is installing via <code>Homebrew</code>.</p>
+<p><a href="https://developer.paypal.com/docs/limited-release/native-checkout/ios/">https://developer.paypal.com/docs/limited-release/native-checkout/ios/</a></p>
 <h2 id='installation' class='heading'>Installation</h2>
-<h3 id='setup-provisioning-profile-certificate' class='heading'>Setup Provisioning Profile / Certificate</h3>
+<h3 id='carthage' class='heading'>Carthage</h3>
 
-<p>See this video for instructions: <a href="https://web.microsoftstream.com/video/e17bd27c-d477-4049-9c6d-ada5abaeed34">https://web.microsoftstream.com/video/e17bd27c-d477-4049-9c6d-ada5abaeed34</a></p>
-<h3 id='cocoapods' class='heading'>Cocoapods</h3>
-
-<p>Make sure you have <code>cocoapods</code> installed.</p>
-<pre class="highlight shell"><code><span class="c"># Run this command in your terminal</span>
-pod install
+<p>To install the PayPalCheckout SDK via <a href="https://github.com/Carthage/Carthage">Carthage</a>, simply add the following line to your <code>Cartfile</code>:</p>
+<pre class="highlight plaintext"><code>binary "https://github.com/paypal/paypalcheckout-ios/raw/master/Carthage/PayPalCheckout.json" 
 </code></pre>
-<h2 id='getting-started' class='heading'>Getting Started</h2>
-<h3 id='keywords' class='heading'>Keywords</h3>
+<h3 id='cocoapods' class='heading'>CocoaPods</h3>
 
-<ul>
-<li><strong>Provider</strong> - Checkout provider, e.g. PayPal, Venmo, etc.</li>
-<li><strong>Paysheet</strong> - UI specific to the checkout process</li>
-</ul>
-<h3 id='structure' class='heading'>Structure</h3>
+<p>To install the SDK via <a href="https://cocoapods.org/">CocoaPods</a>, add the following to your <code>Podfile</code>:</p>
+<pre class="highlight plaintext"><code>pod 'PayPalCheckout'
+</code></pre>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
 
-<p>The project is broken down as follows:</p>
+<p>If you are working in the context of another package, you can add the PayPalCheckout SDK as a dependency in your <code>Package.swift</code> file: </p>
+<pre class="highlight swift"><code><span class="k">let</span> <span class="nv">package</span> <span class="o">=</span> <span class="kt">Package</span><span class="p">(</span>
+    <span class="nv">name</span><span class="p">:</span> <span class="s">"MyPackage"</span><span class="p">,</span>
+    <span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+        <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/paypal/paypalcheckout-ios.git"</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="s">"0.33.0"</span><span class="p">),</span>
+    <span class="p">],</span>
+    <span class="o">...</span>
+<span class="p">)</span>
+</code></pre>
 
-<ol>
-<li>The <strong>Core</strong> layer contains shared contracts and functionality protocols</li>
-<li>The <strong>IO</strong> layer contains network connectivity, and can generate objects from GraphQL</li>
-<li>The <strong>Events</strong> layer handles notifications and updates between SDK classes, such as updating viewmodels</li>
-<li>The <strong>Platform</strong> layer communicates with the PayPal platform front end and checkout lifecycle</li>
-<li>The <strong>UI</strong> layer implements the UI and graphics used in the paysheet</li>
-<li>The <strong>Checkout</strong> layer is the only layer presented to merchant apps, revealing only what the merchant needs</li>
-</ol>
-<h4 id='core-layer' class='heading'>Core Layer</h4>
+<p>If you are adding the PayPalCheckout SDK into a standalone project, you can add the PayPalCheckout SDK by following Apple&rsquo;s <a href="https://developer.apple.com/documentation/xcode/adding_package_dependencies_to_your_app">package integration guide</a>, while specifying <code>https://github.com/paypal/paypalcheckout-ios.git</code> as the source git repository.</p>
 
-<p>The core layer contains the <code>PayPalCheckoutCore</code> namespace and is reserved for protocol definitions and canonical types. This namespace should be implementation agnostic, and only contain functionality that is extensible and broadly applicable.</p>
+<p>Note that Swift Package Manager support is not available for versions prior to <code>0.33.0</code></p>
+<h2 id='license' class='heading'>License</h2>
 
-<p><strong>Example:</strong> The core defines the canonical <code><a href="Protocols/ShippingAddress.html">ShippingAddress</a></code> contract. It should never determine where it comes from; merely its structure.</p>
-
-<p><strong>Note:</strong> The module in this layer should never depend on any of the other layers in this project.</p>
-<h4 id='io-layer' class='heading'>IO Layer</h4>
-
-<p>The IO layer contains the <code>PayPalCheckoutIO</code> namespace and is reserved for general purpose communications, serializing, and deserializing.</p>
-<h4 id='events-layer' class='heading'>Events Layer</h4>
-
-<p>The Events layer deals with interobject communication.</p>
-<h4 id='platform-layer' class='heading'>Platform Layer</h4>
-
-<p>The Platform layer builds upon the Core, IO, Events layers to manage the application&rsquo;s state and relationship with the PayPal front tier services.</p>
-<h4 id='ui-layer' class='heading'>UI Layer</h4>
-
-<p>The UI layer implements the UIViews and view models necessary for paysheets and their management</p>
-<h4 id='checkout-layer' class='heading'>Checkout Layer</h4>
-
-<p>The Checkout layer encapsulates all the other layers, not only tying the pay sheet UI to PayPal&rsquo;s services, but also providing a unified interface for the merchant application.</p>
+<p>See the LICENSE file for more info.</p>
 
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-17)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-22)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
