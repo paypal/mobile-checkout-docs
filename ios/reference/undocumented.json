@@ -16,21 +16,21 @@
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/CheckoutSession/Enums/UserAction.swift",
-      "line": 17,
+      "line": 13,
       "symbol": "UserAction",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/CheckoutSession/Enums/UserAction.swift",
-      "line": 18,
+      "line": 14,
       "symbol": "UserAction.continue",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckout/Sources/CheckoutSession/Enums/UserAction.swift",
-      "line": 19,
+      "line": 15,
       "symbol": "UserAction.payNow",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -348,13 +348,6 @@
       "line": 36,
       "symbol": "FPTIEvent.init(from:to:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutEvents/Analytics/FallbackReason.swift",
-      "line": 17,
-      "symbol": "FallbackReason",
-      "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -1842,57 +1835,29 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutIO/Server/ECTokenGen.swift",
-      "line": 31,
-      "symbol": "ECTokenGen.TokenEndpoint.v1api",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutIO/Server/ECTokenGen.swift",
-      "line": 33,
-      "symbol": "ECTokenGen.TokenEndpoint.v2api",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 146,
-      "symbol": "CheckoutConfig.payMode",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 179,
+      "line": 171,
       "symbol": "CheckoutConfig.onAuthenticate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 213,
+      "line": 205,
       "symbol": "CheckoutConfig.onShippingChange",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 231,
-      "symbol": "CheckoutConfig.init(clientID:payToken:universalLink:uriScheme:onApprove:onCancel:onError:environment:)",
+      "line": 216,
+      "symbol": "CheckoutConfig.init(clientID:returnUrl:createOrder:onApprove:onCancel:onError:environment:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 259,
-      "symbol": "CheckoutConfig.init(clientID:universalLink:uriScheme:createOrder:onApprove:onCancel:onError:environment:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutPlatform/Lifecycle and State/CheckoutConfig.swift",
-      "line": 318,
+      "line": 246,
       "symbol": "CheckoutConfig.copy(with:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -4405,21 +4370,21 @@
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingView.swift",
-      "line": 247,
+      "line": 240,
       "symbol": "ShippingView.updateAddressLabels()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingView.swift",
-      "line": 263,
+      "line": 256,
       "symbol": "ShippingView.updateData()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout/Sources/PayPalCheckoutUI/Sources/Views/Shipping/ShippingView.swift",
-      "line": 306,
+      "line": 299,
       "symbol": "ShippingView.willChangeHeight(_:pageChange:duration:animation:animationCompletion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
