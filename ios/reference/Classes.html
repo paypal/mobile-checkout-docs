@@ -17,7 +17,7 @@
     <a title="Classes  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">PayPalCheckout 0.40.0 Docs</a> (62% documented)</p>
+        <p><a href="index.html">PayPalCheckout 0.40.0 Docs</a> (63% documented)</p>
         <p class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -416,6 +416,12 @@
                 <a href="Enums/CurrencyConversionType.html">CurrencyConversionType</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/ECTokenGen.html">ECTokenGen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/ECTokenGen/TokenEndpoint.html">– TokenEndpoint</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/Environment.html">Environment</a>
               </li>
               <li class="nav-group-task">
@@ -429,6 +435,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FPTIEventType.html">FPTIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/FallbackReason.html">FallbackReason</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/FallbackType.html">FallbackType</a>
@@ -635,6 +644,9 @@
                 <a href="Protocols/NetworkResult.html">NetworkResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols.html#/s:14PayPalCheckout13NonFatalErrorP">NonFatalError</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/OpenBankingContingency.html">OpenBankingContingency</a>
               </li>
               <li class="nav-group-task">
@@ -786,6 +798,9 @@
                 <a href="Typealiases.html#/s:14PayPalCheckout19CustomContentLayouta">CustomContentLayout</a>
               </li>
               <li class="nav-group-task">
+                <a href="Typealiases.html#/s:14PayPalCheckout11ECTokenCalla">ECTokenCall</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Typealiases.html#/s:14PayPalCheckout7EventIDa">EventID</a>
               </li>
               <li class="nav-group-task">
@@ -802,6 +817,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Typealiases.html#/s:14PayPalCheckout0A4Modea">PayMode</a>
               </li>
               <li class="nav-group-task">
                 <a href="Typealiases.html#/s:14PayPalCheckout0A5Tokena">PayToken</a>
@@ -862,7 +880,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCApprovalData)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCApprovalData</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">ApprovalData</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -893,7 +911,7 @@ This meta information can be utilized to properly capture an order.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCApproval)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCApproval</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">Approval</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -924,7 +942,7 @@ but may be extended in the future.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCAuthorizeActionSuccess)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCAuthorizeActionSuccess</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">AuthorizeActionSuccess</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -955,7 +973,7 @@ but may be extended in the future.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCCaptureActionSuccess)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCCaptureActionSuccess</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">CaptureActionSuccess</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -987,7 +1005,7 @@ either by their own means or using built in functions in the SDK.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCCreateOrderAction)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCCreateOrderAction</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">CreateOrderAction</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1017,7 +1035,7 @@ either by their own means or using built in functions in the SDK.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderActionData)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderActionData</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderActionData</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1047,7 +1065,7 @@ either by their own means or using built in functions in the SDK.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderActions)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderActions</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderActions</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1078,7 +1096,7 @@ experience similar to how the web handles PayPal checkout experiences.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCPaymentButton)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCPaymentButton</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">PaymentButton</span> <span class="p">:</span> <span class="kt">UIButton</span></code></pre>
 
@@ -1108,7 +1126,7 @@ experience similar to how the web handles PayPal checkout experiences.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCPaymentButtonConfig)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCPaymentButtonConfig</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">PaymentButtonConfig</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1203,7 +1221,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderAddress)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderAddress</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderAddress</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1234,7 +1252,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContext)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContext</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderApplicationContext</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1265,7 +1283,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderPayer)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderPayer</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderPayer</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1296,7 +1314,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderRequest)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderRequest</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderRequest</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1327,7 +1345,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCPurchaseUnit)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCPurchaseUnit</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">PurchaseUnit</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1362,7 +1380,7 @@ single instance.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCUnitAmount)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCUnitAmount</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">UnitAmount</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1536,7 +1554,7 @@ and ordered input sets. Instead, simply call:</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCCorrelationIDs)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCCorrelationIDs</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">CorrelationIDs</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1567,7 +1585,7 @@ This meta information can be utilized to debug our checkout sessions.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCErrorInfo)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCErrorInfo</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ErrorInfo</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
@@ -1612,7 +1630,7 @@ flow desired.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCheckoutConfig)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCheckoutConfig</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">CheckoutConfig</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">NSCopying</span></code></pre>
 
@@ -1767,7 +1785,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCShippingAmount)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCShippingAmount</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShippingAmount</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
@@ -1797,7 +1815,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCShippingChange)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCShippingChange</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShippingChange</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
@@ -1827,7 +1845,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCShippingChangeAddress)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCShippingChangeAddress</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShippingChangeAddress</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="Protocols/ShippingAddress.html">ShippingAddress</a></span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
@@ -1857,7 +1875,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCShippingChangeError)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCShippingChangeError</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShippingChangeError</span> <span class="p">:</span> <span class="kt">NSError</span></code></pre>
 
@@ -1887,7 +1905,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCShippingMethod)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCShippingMethod</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">ShippingMethod</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Codable</span></code></pre>
 
@@ -2093,7 +2111,7 @@ Passing an error to the closure will cause execution to halt.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCheckout)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCheckout</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">Checkout</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="Protocols/StaticIdentifiable.html">StaticIdentifiable</a></span></code></pre>
 
@@ -3388,7 +3406,7 @@ component</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-24)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-25)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

@@ -17,7 +17,7 @@
     <a title="Checkout Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">PayPalCheckout 0.40.0 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">PayPalCheckout 0.40.0 Docs</a> (63% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -416,6 +416,12 @@
                 <a href="../Enums/CurrencyConversionType.html">CurrencyConversionType</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen.html">ECTokenGen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen/TokenEndpoint.html">– TokenEndpoint</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/Environment.html">Environment</a>
               </li>
               <li class="nav-group-task">
@@ -429,6 +435,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FPTIEventType.html">FPTIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackReason.html">FallbackReason</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FallbackType.html">FallbackType</a>
@@ -635,6 +644,9 @@
                 <a href="../Protocols/NetworkResult.html">NetworkResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout13NonFatalErrorP">NonFatalError</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/OpenBankingContingency.html">OpenBankingContingency</a>
               </li>
               <li class="nav-group-task">
@@ -786,6 +798,9 @@
                 <a href="../Typealiases.html#/s:14PayPalCheckout19CustomContentLayouta">CustomContentLayout</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11ECTokenCalla">ECTokenCall</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout7EventIDa">EventID</a>
               </li>
               <li class="nav-group-task">
@@ -802,6 +817,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A4Modea">PayMode</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout0A5Tokena">PayToken</a>
@@ -838,7 +856,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@objc(PPCheckout)</span>
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCheckout</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">Checkout</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="../Protocols/StaticIdentifiable.html">StaticIdentifiable</a></span></code></pre>
 
@@ -883,7 +901,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(sdkVersion)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="n">sdkVersion</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">version</span><span class="p">:</span> <span class="kt">String</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
@@ -925,6 +943,34 @@
                       <div class="abstract">
                         <p>Convenience entry-point to content configuration</p>
 
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@PayPalCheckout@objc(cs)PPCheckout(cpy)payMode"></a>
+                    <a name="//apple_ref/swift/Variable/payMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@PayPalCheckout@objc(cs)PPCheckout(cpy)payMode">payMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pay mode used for a checkout session (Continue, Pay Now)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@available</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">deprecated</span><span class="p">,</span> <span class="nv">renamed</span><span class="p">:</span> <span class="s">"userAction"</span><span class="p">,</span> <span class="nv">message</span><span class="p">:</span> <span class="s">"This will be removed in a future release"</span><span class="p">)</span>
+<span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">payMode</span><span class="p">:</span> <span class="kt"><a href="../Enums/UserAction.html">UserAction</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -1016,13 +1062,6 @@
                       <div class="abstract">
                         <p>Allows you to set the createOrder callback to be passed into the config object.
 This will be called when creating order/requesting order ID from merchant.</p>
-<div class="aside aside-note">
-    <p class="aside-title">Note</p>
-    This function cannot be called during an active session.
-Attempting to call this function during an active session will result in
-the callback not being set.
-
-</div>
 
                       </div>
                       <div class="declaration">
@@ -1171,7 +1210,7 @@ configuration if the host app is not on the approved whitelist</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(setConfig:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">setConfig</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">set</span><span class="p">(</span><span class="nv">config</span><span class="p">:</span> <span class="kt"><a href="../Classes/CheckoutConfig.html">CheckoutConfig</a></span><span class="p">)</span></code></pre>
 
                         </div>
@@ -1221,7 +1260,7 @@ an undefined experience likely resulting in error.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(startWithPresentingViewController:createOrder:onApprove:onCancel:onError:)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="nv">startWithPresentingViewController</span><span class="p">:</span><span class="nv">createOrder</span><span class="p">:</span><span class="nv">onApprove</span><span class="p">:</span><span class="nv">onCancel</span><span class="p">:</span><span class="nv">onError</span><span class="p">:)</span>
 <span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span>
   <span class="nv">presentingViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
   <span class="nv">createOrder</span><span class="p">:</span> <span class="kt"><a href="../Classes/CheckoutConfig.html">CheckoutConfig</a></span><span class="o">.</span><span class="kt">CreateOrderCallback</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
@@ -1525,7 +1564,7 @@ to contain them. This is then passed to the base <code>performIO</code> directly
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-24)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-25)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

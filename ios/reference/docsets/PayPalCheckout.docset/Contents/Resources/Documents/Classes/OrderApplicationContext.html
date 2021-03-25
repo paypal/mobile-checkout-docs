@@ -17,7 +17,7 @@
     <a title="OrderApplicationContext Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">PayPalCheckout 0.40.0 Docs</a> (62% documented)</p>
+        <p><a href="../index.html">PayPalCheckout 0.40.0 Docs</a> (63% documented)</p>
         <p class="header-right">
           <form role="search" action="../search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -416,6 +416,12 @@
                 <a href="../Enums/CurrencyConversionType.html">CurrencyConversionType</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen.html">ECTokenGen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ECTokenGen/TokenEndpoint.html">– TokenEndpoint</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/Environment.html">Environment</a>
               </li>
               <li class="nav-group-task">
@@ -429,6 +435,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FPTIEventType.html">FPTIEventType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/FallbackReason.html">FallbackReason</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/FallbackType.html">FallbackType</a>
@@ -635,6 +644,9 @@
                 <a href="../Protocols/NetworkResult.html">NetworkResult</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Protocols.html#/s:14PayPalCheckout13NonFatalErrorP">NonFatalError</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Protocols/OpenBankingContingency.html">OpenBankingContingency</a>
               </li>
               <li class="nav-group-task">
@@ -786,6 +798,9 @@
                 <a href="../Typealiases.html#/s:14PayPalCheckout19CustomContentLayouta">CustomContentLayout</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout11ECTokenCalla">ECTokenCall</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout7EventIDa">EventID</a>
               </li>
               <li class="nav-group-task">
@@ -802,6 +817,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout16PageConfiguratora">PageConfigurator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:14PayPalCheckout0A4Modea">PayMode</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:14PayPalCheckout0A5Tokena">PayToken</a>
@@ -838,7 +856,7 @@
               <div class="declaration">
                 <div class="language">
                   
-                  <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContext)</span>
+                  <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContext</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">OrderApplicationContext</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1130,7 +1148,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextShippingPreference)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextShippingPreference</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">ShippingPreference</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1168,7 +1186,7 @@ the payment immediately when the customer clicks Pay Now.</li>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextUserAction)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextUserAction</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">UserAction</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1197,7 +1215,7 @@ the payment immediately when the customer clicks Pay Now.</li>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPaymentMethod)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPaymentMethod</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">PaymentMethod</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1234,7 +1252,7 @@ the payment immediately when the customer clicks Pay Now.</li>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPayerSelected)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPayerSelected</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">PayerSelected</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1270,7 +1288,7 @@ the payment does not have the <code>pending</code> status.</li>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPayeePreferred)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPayeePreferred</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">PayeePreferred</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1308,7 +1326,7 @@ and usually initiated by a company. These are usually recurring debits (such as 
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextStandardEntryClassCode)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextStandardEntryClassCode</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">StandardEntryClassCode</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1338,7 +1356,7 @@ that has been stored or is intended to be stored (also referred to as stored_cre
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextStoredPaymentSource)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextStoredPaymentSource</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">StoredPaymentSource</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1374,7 +1392,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPaymentInitiator)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPaymentInitiator</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">PaymentInitiator</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1409,7 +1427,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPaymentType)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPaymentType</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">PaymentType</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1444,7 +1462,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextUsage)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextUsage</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Usage</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1473,7 +1491,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextPreviousNetworkTransactionReference)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextPreviousNetworkTransactionReference</span><span class="p">)</span>
 <span class="kd">@objcMembers</span>
 <span class="kd">public</span> <span class="kd">class</span> <span class="kt">PreviousNetworkTransactionReference</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt">Encodable</span></code></pre>
 
@@ -1503,7 +1521,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">@objc(PPCOrderApplicationContextNetwork)</span>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span><span class="p">(</span><span class="kt">PPCOrderApplicationContextNetwork</span><span class="p">)</span>
 <span class="kd">public</span> <span class="kd">enum</span> <span class="kt">Network</span> <span class="p">:</span> <span class="kt">Int</span></code></pre>
 
                         </div>
@@ -1516,7 +1534,7 @@ e.g. a merchant charging the monthly payment of a subscription to the customer.<
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-24)</p>
+          <p>&copy; 2021 <a class="link" href="https://github.paypal.com/nativexo/ios-native-checkout" target="_blank" rel="external">PayPal</a>. All rights reserved. (Last updated: 2021-03-25)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
