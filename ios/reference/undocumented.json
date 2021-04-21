@@ -136,6 +136,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "CardinalStep",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "CarouselCell.LabelType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
@@ -1424,7 +1431,7 @@
     {
       "file": null,
       "line": null,
-      "symbol": "FPTIEntry.init(eventType:funnelStage:fileName:fileFunction:fileLine:debugId:errorType:internalErrorCode:externalErrorCode:errorMessage:errorDetails:transitionName:outcome:stateName:informationMessage:parentName:childName:eventName:fallbackReason:fallbackCategory:fallbackFrom:fallbackTo:originScreen:destinationScreen:payloadSent:webFragment:experimentationExperience:experimentationTreatment:usedFundingSource:)",
+      "symbol": "FPTIEntry.init(eventType:funnelStage:fileName:fileFunction:fileLine:debugId:errorType:internalErrorCode:externalErrorCode:errorMessage:errorDetails:transitionName:outcome:stateName:informationMessage:parentName:childName:eventName:fallbackReason:fallbackCategory:fallbackFrom:fallbackTo:originScreen:destinationScreen:payloadSent:webFragment:experimentationExperience:experimentationTreatment:usedFundingSource:ctaContent:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
       "warning": "undocumented"
     },
@@ -2117,6 +2124,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "I18n.navigationReviewOrderButton",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "I18n.paymentButtonBuyNowLabel",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
@@ -2139,6 +2153,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.paymentButtonPayWithLabel",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.paysheetCompleteOrder",
       "symbol_kind": "source.lang.swift.decl.var.class",
       "warning": "undocumented"
     },
@@ -2503,6 +2524,13 @@
       "file": null,
       "line": null,
       "symbol": "InitializeUIStep",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "JWTStep",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
@@ -3678,6 +3706,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "ResolveThreeDSStep",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "SecondaryApprovalStep",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "SequenceProcessor.Callback.init(context:name:_:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
       "warning": "undocumented"
@@ -4070,6 +4112,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "ThreeDSGenericURL.href",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "Transition.Error",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
@@ -4226,20 +4275,6 @@
       "line": null,
       "symbol": "UserAction",
       "symbol_kind": "source.lang.swift.decl.enum",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "UserAction.continue",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "UserAction.payNow",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
