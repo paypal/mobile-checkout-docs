@@ -10,13 +10,6 @@
     {
       "file": null,
       "line": null,
-      "symbol": "AccessibilityCardInfoLayout.InputState",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
       "symbol": "AccessibilityCloseButton",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -38,7 +31,378 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addShippingButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressAdminArea1Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressAdminArea2Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressAdminArea3Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressAdminArea4Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressAutocompleteInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressLine1Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressLine2Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressLine3Input",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.addressPostalCodeInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.agreeAndContinueCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.applyForCreditCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.baAuthInfoLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.baAuthTitleLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.backButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.cardNumberInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.carouselView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.checkoutBackgroundView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.completeOrderCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.complianceRateProtectionInfoText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.countryButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.cscInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.currencyOptionsButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.currencyOptionsSegmentedControl",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.currencyRow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.expDateInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.firstNameInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.gotItButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.lastNameInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.legaleseLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.loadingTransitionView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.logoButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.logoutButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.paysheetContainerView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.paysheetViewControllerView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.profileImageBubble",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.rateChangeRow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.reviewOrderCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.searchShippingAddress",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.seeConversionOptionsButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.selectCountryInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.shipToLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.shippingAddressAddManuallyButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.shippingAddressesView",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.shippingFullAddressLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.shippingRow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.userEmailLabel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.zipCodeInput",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "ActionableRow",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ActivityIndicator.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AddAction.Variant",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AddCardInputView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AddCardQuery.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -52,71 +416,29 @@
     {
       "file": null,
       "line": null,
-      "symbol": "AddCardView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView",
+      "symbol": "AddShippingView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": null,
       "line": null,
-      "symbol": "AddCardView.desiredHeight(forWidth:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "symbol": "AddShippingViewModel.ValidationResponse",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": null,
       "line": null,
-      "symbol": "AddCardView.didChangeHeight(with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "symbol": "AddressAutocompletePage.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": null,
       "line": null,
-      "symbol": "AddCardView.isShowingError",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView.isVisible",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView.showError",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView.textFieldDidBeginEditing(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView.textFieldShouldReturn(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "AddCardView.willChangeHeight(with:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "symbol": "AddressAutocompleteQuery.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -130,6 +452,20 @@
       "file": null,
       "line": null,
       "symbol": "AddressFieldInfo.Key",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AddressInputsView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AddressInputsViewModel.ValidationResponse",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -276,7 +612,35 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AmplitudeData.APIKey",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AnalyticsCALEntries.CALEvent",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AnalyticsUploader.Amplitude",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AnalyticsUploader.FPTIUploadData",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AnalyticsUploader.FPTIUploadData.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -355,6 +719,34 @@
       "line": null,
       "symbol": "AspectRatioImageView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthKeys.Error",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthKeys.Event",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthKeys.EventType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthKeys.Parameter",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -472,6 +864,41 @@
     {
       "file": null,
       "line": null,
+      "symbol": "BillingAddressInputView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "BillingAddressInputViewModel.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "BillingAddressSuggestionView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "BillingAuthorizationHeaderView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "BillingAuthorizationInfoView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "BillingType",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -528,6 +955,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "CSCValidator.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CTAButton.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "CaptureActionSuccess",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -535,7 +976,14 @@
     {
       "file": null,
       "line": null,
-      "symbol": "CardInfoRow.InputState",
+      "symbol": "CardInputView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CardInputViewModel.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -551,6 +999,13 @@
       "line": null,
       "symbol": "CardIssuer.addCardField",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CardNumberValidator.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -731,6 +1186,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "Checkout.showsExitSurvey",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "CheckoutApprovePaymentResult",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -837,6 +1299,13 @@
       "file": null,
       "line": null,
       "symbol": "ClientConfigResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CloseButton.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -1473,7 +1942,35 @@
     {
       "file": null,
       "line": null,
+      "symbol": "CountrySuggestion",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CountrySuggestion",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "CreateOrderAction",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CreditOfferType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "CryptoInformationView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -1753,6 +2250,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "CurrencyConversionOptionView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "CurrencyConversionType",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -1760,29 +2264,8 @@
     {
       "file": null,
       "line": null,
-      "symbol": "DeliverySelectionHeaderView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "DeliverySelectionHeaderView",
+      "symbol": "CurrencyView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "DeliverySelectionHeaderView.contentConstraints",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "DeliverySelectionHeaderView.desiredHeight(forWidth:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -1872,6 +2355,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "DynamicBackground.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "EligibilityResponse.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -1935,8 +2425,29 @@
     {
       "file": null,
       "line": null,
+      "symbol": "EventType.addressLine1EditingChanged",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "EventType.scrollPageOnAddressSuggestionsShown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "EventType.updateCarouselAddCardImage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ExpirationDateValidator.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -2131,7 +2642,7 @@
     {
       "file": null,
       "line": null,
-      "symbol": "FPTIEntry.init(eventType:funnelStage:fileName:fileFunction:fileLine:debugId:errorType:internalErrorCode:externalErrorCode:errorMessage:errorDetails:transitionName:outcome:stateName:informationMessage:parentName:childName:viewName:eventName:fallbackReason:fallbackCategory:fallbackFrom:fallbackTo:originScreen:destinationScreen:payloadSent:webFragment:experimentationExperience:experimentationTreatment:usedFundingSource:ctaContent:assistiveTouchRunning:grayscaleEnabled:boldTextEnabled:voiceOverRunning:monoAudioEnabled:speakScreenEnabled:invertColorsEnabled:speakSelectionEnabled:reduceMotionEnabled:reduceTransparencyEnabled:darkerSystemColorsEnabled:preferredContentSizeCategory:currencyCode:shippingAmount:totalAmount:tab:fieldName:addressCount:queryName:correlationId:duration:authSDKVersion:appGuid:)",
+      "symbol": "FPTIEntry.init(eventType:funnelStage:fileName:fileFunction:fileLine:debugId:errorType:internalErrorCode:externalErrorCode:errorMessage:errorDetails:transitionName:outcome:stateName:informationMessage:parentName:childName:viewName:eventName:fallbackReason:fallbackCategory:fallbackFrom:fallbackTo:originScreen:destinationScreen:payloadSent:webFragment:experimentationExperience:experimentationTreatment:usedFundingSource:ctaContent:assistiveTouchRunning:grayscaleEnabled:boldTextEnabled:voiceOverRunning:monoAudioEnabled:speakScreenEnabled:invertColorsEnabled:speakSelectionEnabled:reduceMotionEnabled:reduceTransparencyEnabled:darkerSystemColorsEnabled:preferredContentSizeCategory:shippingAmount:tab:fieldName:addressCount:queryName:correlationId:duration:authSDKVersion:appGuid:deviceId:availableFundingOptions:selectedFundingOption:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
       "warning": "undocumented"
     },
@@ -2230,6 +2741,13 @@
       "file": null,
       "line": null,
       "symbol": "FundingEligibilityResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "FundingInstrumentDescriptionView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -2558,6 +3076,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "HeaderTitleLabel.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "HeightChange",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -2601,6 +3126,20 @@
       "file": null,
       "line": null,
       "symbol": "I18n.addCardExpirationDate",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.addCardNoFIPageTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.addCardPageTitle",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -2705,6 +3244,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "I18n.balanceIncompatibleAlertMessage",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "I18n.balanceMissing",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
@@ -2734,6 +3280,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.billingAuthorizationInfo",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.billingDetailsLabel",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -3524,6 +4077,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "I18n.errorMessageEmptyInput",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "I18n.errorMessageExpirationDate",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
@@ -3546,6 +4106,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.errorMessageSubTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.errorMessageSubTitle3p",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -3616,6 +4183,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.exitSurveySubTitle",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.exitSurveySubTitle3p",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -3819,6 +4393,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.invalidState",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.invalidZipcode",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -4378,6 +4959,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "I18n.shippingPickupSubtitle3p",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "I18n.shippingRecentlyUsedSort",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
@@ -4414,6 +5002,13 @@
       "file": null,
       "line": null,
       "symbol": "I18n.shutdown2",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "I18n.shutdown2_3p",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -4826,6 +5421,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "KillSwitchStep",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "KillSwitchStep",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "LSATResult.CodingKeys",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -5092,6 +5701,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "NameField.Key",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "NameInputsView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "NetworkActionType",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
@@ -5176,6 +5799,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "NetworkOperations.Inbound",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "NetworkResult",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -5212,6 +5842,13 @@
       "file": null,
       "line": null,
       "symbol": "OnError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "OptOutButton.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -6170,6 +6807,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "PaymentButtonLoadingView.AnimationPose",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "PaymentButtonLoadingView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "PaymentButtonLoadingView.LayerAnimationKey",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -6207,6 +6858,20 @@
       "line": null,
       "symbol": "PaymentFundingEligibilityState.PaymentsButtonState",
       "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "PaysheetFooterView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "PaysheetHeaderView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -6485,29 +7150,8 @@
     {
       "file": null,
       "line": null,
-      "symbol": "RateChangePolicyHeaderView",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "RateChangePolicyHeaderView",
+      "symbol": "RateChangePolicyView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "RateChangePolicyHeaderView.contentConstraints",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "RateChangePolicyHeaderView.desiredHeight(forWidth:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -6646,6 +7290,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "SaveBillingPaymentInfoView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "SecondaryApprovalStep",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -6660,6 +7311,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "SelectCountryView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "SequenceProcessor",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -6668,6 +7326,27 @@
       "file": null,
       "line": null,
       "symbol": "SessionIdentifiers",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingAddressAutocompleteView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingAddressContainerView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingAddressesView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -6737,28 +7416,7 @@
     {
       "file": null,
       "line": null,
-      "symbol": "ShippingChangeAddress.addressID",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "ShippingChangeAddress.adminArea2",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "ShippingChangeAddress.adminArea3",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "ShippingChangeAddress.adminArea4",
+      "symbol": "ShippingChangeAddress.city",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -6772,29 +7430,15 @@
     {
       "file": null,
       "line": null,
-      "symbol": "ShippingChangeAddress.countryCode",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "ShippingChangeAddress.fullName",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": null,
-      "line": null,
-      "symbol": "ShippingChangeAddress.init(addressID:fullName:adminArea1:adminArea2:adminArea3:adminArea4:postalCode:countryCode:)",
+      "symbol": "ShippingChangeAddress.init(addressID:adminArea1:adminArea2:postalCode:countryCode:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
       "warning": "undocumented"
     },
     {
       "file": null,
       "line": null,
-      "symbol": "ShippingChangeAddress.postalCode",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "symbol": "ShippingChangeAddress.init(addressID:fullName:city:state:postalCode:country:)",
+      "symbol_kind": "source.lang.swift.decl.function.constructor",
       "warning": "undocumented"
     },
     {
@@ -6828,6 +7472,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "ShippingCorrectionView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "ShippingDetailsPage",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -6836,6 +7487,13 @@
       "file": null,
       "line": null,
       "symbol": "ShippingDetailsPage",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingDetailsView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -6851,6 +7509,20 @@
       "line": null,
       "symbol": "ShippingMethod.init(id:label:selected:type:amount:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingMethodContainerView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ShippingSegmentedControl.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -6996,6 +7668,27 @@
     {
       "file": null,
       "line": null,
+      "symbol": "Snackbar.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "SplitBalanceRow.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "SplitBalanceView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "StaticIdentifiable",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -7038,8 +7731,15 @@
     {
       "file": null,
       "line": null,
-      "symbol": "StringMask.mask(string:endOfMask:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "symbol": "SuggestionAddManuallyView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "SuggestionCell.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -7054,6 +7754,13 @@
       "line": null,
       "symbol": "SuggestionsView",
       "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "SuggestionsView.changingHeight(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -7122,6 +7829,20 @@
     {
       "file": null,
       "line": null,
+      "symbol": "TextInput.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "TextInput.Spacing",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "TextInput.TextInputAlignment",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -7130,6 +7851,13 @@
       "file": null,
       "line": null,
       "symbol": "TextInputState",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ThreeDS1WebViewController.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -7199,6 +7927,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "ThreeDSLoadingView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "ThreeDSLookupPayload.AddressInput",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -7241,6 +7976,27 @@
     {
       "file": null,
       "line": null,
+      "symbol": "TotalTaxesAndFeesContainerView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "TotalTaxesAndFeesView.Constants",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "TrackError.ErrorType",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "Transition.AuthComplete",
       "symbol_kind": "source.lang.swift.decl.enum",
       "warning": "undocumented"
@@ -7333,6 +8089,13 @@
       "file": null,
       "line": null,
       "symbol": "Transition.StartWithSpinner",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "TransitionContentView.Constants",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -7374,7 +8137,21 @@
     {
       "file": null,
       "line": null,
+      "symbol": "TransitionUI.Asset",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "TransitionUI.Page",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "TransitionView.Config",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
@@ -7556,6 +8333,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "WebRoute.payLater(data:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "WebViewPage",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
@@ -7568,5 +8352,5 @@
       "warning": "undocumented"
     }
   ],
-  "source_directory": "/Users/thenguyen/Documents/WORK/PayPal/ios-native-checkout"
+  "source_directory": "/Users/cberghausen/Documents/GitHub/ios-native-checkout/scripts/ThirdPartyRelease/Archives"
 }

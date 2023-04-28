@@ -16,5 +16,7 @@
       <true/>
     <key>DashDocSetFamily</key>
       <string>dashtoc</string>
+    <key>DashDocSetFallbackURL</key>
+      <string>https://paypal.github.io/mobile-checkout-docs/ios/reference/</string>
   </dict>
 </plist>
