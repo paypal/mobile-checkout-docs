@@ -38,6 +38,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.addNewCardButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.addShippingButton",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -115,6 +122,13 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.applyForBNPLCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.applyForCreditCTAButton",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -137,6 +151,13 @@
       "file": null,
       "line": null,
       "symbol": "AccessibilityIdentifier.backButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.bankAccount",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -178,7 +199,28 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.continueButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.countryButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.creditCard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.cryptocurrency",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -227,7 +269,21 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.genericCell",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.gotItButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.incentive",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -269,6 +325,27 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.payInX",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.payToken",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.paypalCredit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.paysheetContainerView",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -283,7 +360,28 @@
     {
       "file": null,
       "line": null,
+      "symbol": "AccessibilityIdentifier.privateLabelCreditCard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
       "symbol": "AccessibilityIdentifier.profileImageBubble",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.providerBalance",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.providerCredit",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -298,6 +396,20 @@
       "file": null,
       "line": null,
       "symbol": "AccessibilityIdentifier.reviewOrderCTAButton",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.save",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AccessibilityIdentifier.saveCTAButton",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
@@ -719,6 +831,20 @@
       "line": null,
       "symbol": "AspectRatioImageView.init(frame:)",
       "symbol_kind": "source.lang.swift.decl.function.constructor",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthConfig",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "AuthConfig.copy(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -2448,6 +2574,13 @@
       "line": null,
       "symbol": "EventType.updateCarouselAddCardImage",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "ExistingBADetails.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -5478,6 +5611,13 @@
       "file": null,
       "line": null,
       "symbol": "LSATUpgradeTask",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": null,
+      "line": null,
+      "symbol": "LatencyRepositoryReal.TrackedDuration",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
